@@ -1,0 +1,39 @@
+/* ============ Fonts ================= */
+
+/* ============= Components ============= */
+@import url("components/variables.css");
+@import url("components/header.css");
+@import url("components/home.css");
+@import url("components/expertise.css");
+@import url("components/portfolio.css");
+@import url("components/methodology.css");
+@import url("components/footer.css");
+@import url("components/about.css");
+@import url("components/contact.css");
+
+/* ================= Base =============== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
