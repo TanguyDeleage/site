@@ -1,0 +1,11 @@
+.hero-title {
+
+}
+
+.hero-subtitle {
+  color: var(--color-subtitles);
+}
+
+.hero-description {
+  color: var(--color-text);
+}

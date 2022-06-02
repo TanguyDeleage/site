@@ -1,3 +1,11 @@
+#logo {
+height: 2rem;
+}
+
+.main-link {
+  color: var(--color-dominant) !important;
+}
+
 .header {
   width: 100%;
   height: 4rem;
@@ -9,12 +17,15 @@
 .header a {
   color: var(--color-text-black);
   position: relative;
+  font-weight: var(--font-bold);
 }
 
-.header-padding {
-  /* padding:  ; */
+.navbar {
+  width: 40%;
 }
 
-#logo {
-height: 2rem;
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }

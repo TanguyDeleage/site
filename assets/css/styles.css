@@ -1,9 +1,10 @@
 /* ============ Fonts ================= */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
 /* ============= Components ============= */
 @import url("components/variables.css");
 @import url("components/header.css");
-@import url("components/home.css");
+@import url("components/hero.css");
 @import url("components/expertise.css");
 @import url("components/portfolio.css");
 @import url("components/methodology.css");
@@ -22,8 +23,35 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: var(--color-body);
+  font-family: var(--font);
+}
 
+h1 {
+  font-size: var(--font-h1);
+  font-weight: var(--font-bold);
+}
 
+h2 {
+  font-size: var(--font-h2);
+  font-weight: var(--font-semi-bold);
+}
+
+h3 {
+  font-size: var(--font-h3);
+  font-weight: var(--font-semi-bold);
+}
+
+h4 {
+  font-size: var(--font-h4);
+  font-weight: var(--font-semi-bold);
+}
+
+p {
+  font-size: var(--font-p);
+  font-weight: var(--font-regular);
+}
 
 ul {
   list-style: none;
@@ -36,4 +64,26 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+/* =========== Layout ====================== */
+.main-padding {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+/* =============== Button ============= */
+.contact-button {
+  background-color: var(--color-dominant);
+  width: 10rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-button a{
+  color: var(--color-text-white);
+  font-weight: var(--font-semi-bold);
 }
