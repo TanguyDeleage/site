@@ -1,0 +1,31 @@
+:root {
+
+  /* ================== Colors ================ */
+  --color-dominant: hsl(35, 48%, 54%);
+  --color-home: hsl(30, 29%, 84%);
+  --color-body: hsl(0, 0%, 100%);
+  --color-project-hover: ;
+  --color-button-hover: ;
+
+  --color-text-black: hsla(0, 0%, 0%, 100%);
+  --color-text-white: hsl(0, 0%, 100%);
+  --color-subtitles: hsla(0, 0%, 0%, 50%);
+  --color-text: hsla(0, 0%, 0%, 30%);
+
+  /* ================== Font Family ================ */
+  --font: ;
+
+  /* ================== Font Size ================ */
+  --font-name: ;
+  --font-titles: ;
+  --font-subtitles: ;
+  --font-intro-project: ;
+  --font-text: ;
+
+  --font-black: 900;
+  --font-bold: 700;
+  --font-semi-bold: 600;
+  --font-regular: 400;
+
+  /* ================== Margin ================ */
+}
