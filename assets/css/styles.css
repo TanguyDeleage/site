@@ -72,9 +72,40 @@ img {
   padding-right: 6rem;
 }
 
+.section {
+  height: 100vh;
+}
+
+.section-beige {
+  background-color: var(--color-secondary);
+}
+
+
+/* =========== Margin ======================== */
+ .mb-4 {
+   margin-bottom: var(--mb-4);
+ }
+
+ .mb-2 {
+   margin-bottom: var(--mb-2);
+ }
+
+ .mb-1 {
+   margin-bottom: 1rem;
+ }
+
+ .mb-0-5 {
+   margin-bottom: var(--mb-0-5);
+ }
+
+ .mb-0-25 {
+   margin-bottom: var(--mb-0-25);
+  }
+
+
 /* =============== Button ============= */
 .contact-button {
-  background-color: var(--color-dominant);
+  background-color: var(--color-main);
   width: 10rem;
   height: 3rem;
   border-radius: 0.5rem;
@@ -85,5 +116,11 @@ img {
 
 .contact-button a{
   color: var(--color-text-white);
-  font-weight: var(--font-semi-bold);
+  font-weight: var(--font-bold);
+}
+
+.about-button {
+  color: var(--color-main);
+  font-weight: var(--font-bold);
+  font-size: var(--font-h3);
 }

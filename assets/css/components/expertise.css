@@ -1,0 +1,39 @@
+.section-expertise-subtitle {
+  color: var(--color-text-white);
+}
+
+.expertise-grid {
+  display: grid;
+}
+
+.expertise-title {
+  margin-bottom: 2rem;
+  color: var(--color-text-white);
+}
+
+.expertise-content {
+  color: var(--color-subtitles);
+}
+
+.button-center {
+  margin: 0 auto;
+}
+
+
+/* ========== Small Devices ============== */
+@media screen and (max-width: 900px) {
+
+  .expertise-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+/* ============= Big Devices ============ */
+@media screen and (min-width: 900px) {
+
+  .expertise-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
