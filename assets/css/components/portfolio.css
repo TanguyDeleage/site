@@ -11,6 +11,10 @@
   border-radius: 0.5rem;
 }
 
+.portfolio-title {
+  margin-bottom: 0.25rem;
+}
+
 
 /* ========== Small Devices ============== */
 @media screen and (max-width: 900px) {

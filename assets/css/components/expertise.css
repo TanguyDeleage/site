@@ -6,6 +6,10 @@
   display: grid;
 }
 
+.expertise {
+  margin: 0 auto;
+}
+
 .expertise-title {
   margin-bottom: 2rem;
   color: var(--color-text-white);

@@ -78,6 +78,11 @@ img {
 
 .section-beige {
   background-color: var(--color-secondary);
+  padding-top: 2rem;
+}
+
+.section-title {
+  margin-top: 2rem;
 }
 
 

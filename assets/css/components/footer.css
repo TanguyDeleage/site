@@ -22,6 +22,11 @@
   font-size: 0.75rem;
 }
 
+.footer-resume {
+  display: flex;
+  flex-direction: column;
+}
+
 
 /* ========== Small Devices ============== */
 @media screen and (max-width: 900px) {
