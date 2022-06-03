@@ -1,3 +1,39 @@
 .footer {
   background-color: black;
+  padding: 2rem 0 1rem 0;
+}
+
+.footer p, a, h4 {
+  color: var(--color-text-white);
+}
+
+.footer-grid {
+  display: grid;
+}
+
+.footer-copyright {
+  font-size: 0.75rem;
+}
+
+
+/* ========== Small Devices ============== */
+@media screen and (max-width: 900px) {
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-contact {
+    margin-bottom: 2rem;
+  }
+}
+
+
+
+/* ============= Big Devices ============ */
+@media screen and (min-width: 900px) {
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
