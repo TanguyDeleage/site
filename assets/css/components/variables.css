@@ -16,11 +16,11 @@
   --font: 'Lato', 'sans-serif';
 
   /* ================== Font Size ================ */
-  --font-h1: 4rem;
-  --font-h2: 2.5rem;
-  --font-h3: 2rem;
-  --font-h4: 1.5rem;
-  --font-p: 1.5rem;
+  --font-h1: 3rem;
+  --font-h2: 2rem;
+  --font-h3: 1.5rem;
+  --font-h4: 1.25rem;
+  --font-p: 1.125rem;
 
 
   --font-bold: 900;

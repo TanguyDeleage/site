@@ -2,6 +2,10 @@
   margin-top: 14rem;
 }
 
+.hero-title {
+  font-size: 4rem;
+}
+
 .hero-subtitle {
   color: var(--color-subtitles);
 }

@@ -3,9 +3,16 @@
   padding: 2rem 0 1rem 0;
 }
 
-.footer p, a, h4 {
+.footer  p {
   color: var(--color-text-white);
 }
+.footer  a {
+  color: var(--color-text-white);
+}
+.footer  h4 {
+  color: var(--color-text-white);
+}
+
 
 .footer-grid {
   display: grid;
