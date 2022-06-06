@@ -1,0 +1,17 @@
+.contact-section {
+  display: flex;
+}
+
+.contact-title {
+  padding-top: 5rem;
+}
+
+.contact-data {
+  width: 50%;
+  padding-right: 2rem;
+}
+
+.contact-form {
+  width: 50%;
+  padding-left: 2rem;
+}
