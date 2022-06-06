@@ -1,3 +1,7 @@
+#EXPERTISE {
+  scroll-margin-top: 2rem;
+}
+
 .section-expertise-subtitle {
   color: var(--color-text-white);
 }
@@ -6,17 +10,27 @@
   display: grid;
 }
 
+.expertise-data {
+  margin-top: 7rem;
+  margin-bottom: 12rem;
+}
+
 .expertise {
   margin: 0 auto;
 }
 
 .expertise-title {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   color: var(--color-text-white);
 }
 
 .expertise-content {
   color: var(--color-subtitles);
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  height: 7rem;
+  width: 15rem;
 }
 
 .button-center {

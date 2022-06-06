@@ -1,5 +1,13 @@
 .methodology-grid {
   display: grid;
+  margin-top: 7rem;
+  margin-bottom: 9rem;
+  grid-row-gap: 6rem;
+  grid-column-gap: 2rem;
+}
+
+.methodology-step {
+  padding: 1rem;
 }
 
 

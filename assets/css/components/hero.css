@@ -1,3 +1,7 @@
+.hero-section {
+  height: calc(100vh - 4rem);
+}
+
 .hero-data {
   padding-top: 14rem;
 }
