@@ -14,4 +14,14 @@
 .contact-form {
   width: 50%;
   padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-links h4{
+  color: var(--color-subtitles);
+}
+
+.contact-links h3 {
+  color: var(--color-text-black);
 }
