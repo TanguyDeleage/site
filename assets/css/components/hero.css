@@ -1,9 +1,15 @@
 .hero-section {
   height: calc(100vh - 4rem);
+  display: flex;
 }
 
 .hero-data {
   padding-top: 14rem;
+  width: 70%;
+}
+
+.hero-picture {
+  padding-top: 5rem;
 }
 
 .hero-title {
