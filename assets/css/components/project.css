@@ -21,17 +21,47 @@
 
 .btn-text {
   text-align: center;
-  color: var(--color-subtitles);
+  color: var(--color-main);
   justify-content: center;
+  font-weight: var(--font-semi-bold);
 }
 
 .btn-text:hover {
-  color: var(--color-text-black);
+  color: var(--color-text-subtitles);
 }
 
-.btn:hover {
-  background-color: var(--color-button-hover);
+
+/* ============ Card Cover ================ */
+
+.matematch {
+  background-image: url("../../img/projects/matematch/matematch-global.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.daily-ui {
+  background-image: url("../../img/projects/daily-ui/daily-ui-007.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rallye {
+  background-image: url("../../img/projects/rallye/rallye-global.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.coop {
+  background-image: url("../../img/projects/coop/coop-global.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 
 
 /* =========== Small Devices ================= */
