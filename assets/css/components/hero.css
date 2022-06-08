@@ -1,8 +1,7 @@
 .hero-section {
   height: fit-content;
   display: flex;
-  flex-flow: row wrap;
-  width: fit-content;
+  flex-flow: wrap;
   min-height: calc(100vh - 4rem);
 }
 
@@ -13,6 +12,8 @@
 
 .hero-picture {
   padding-top: 5rem;
+  display: flex;
+  align-items: flex-end;
 }
 
 .hero-title {

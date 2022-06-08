@@ -1,16 +1,17 @@
 .about-section {
   display: flex;
   padding-top: 5rem;
-}
-
-.image_a_venir {
-  background-color: var(--color-secondary);
-  height: 35rem;
-  width: 40%;
+  /* height: fit-content; */
+  flex-flow: wrap-reverse;
+  min-height: calc(100vh - 4rem);
 }
 
 .about-title {
   font-size: 4rem;
+}
+
+.about-picture {
+  transform: scaleX(-1);
 }
 
 .about-description {
@@ -56,6 +57,12 @@
   .about-grid {
     grid-template-columns: 1fr;
   }
+  .about-intro {
+    flex-basis: 100%;
+  }
+  .about-picture {
+    flex-basis: 100%;
+  }
 }
 
 
@@ -65,5 +72,12 @@
 
   .about-grid {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  .about-intro {
+    flex-basis: 70%;
+  }
+
+  .about-picture {
+    flex-basis: 30%;
   }
 }

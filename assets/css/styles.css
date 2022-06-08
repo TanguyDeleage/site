@@ -71,6 +71,7 @@ img {
 
 .section {
   min-height: 100vh;
+  padding-bottom: 4rem;
 }
 
 .section-beige {
