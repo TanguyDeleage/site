@@ -95,7 +95,7 @@ height: 2rem;
   .header a:after {
     content: "";
     position: absolute;
-    background-color: var(--color-text-white);
+    background-color: var(--color-text-black);
     height: 1px;
     width: 0;
     left: 0;
