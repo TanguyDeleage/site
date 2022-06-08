@@ -1,6 +1,9 @@
 .hero-section {
-  height: calc(100vh - 4rem);
+  height: fit-content;
   display: flex;
+  flex-flow: row wrap;
+  width: fit-content;
+  min-height: calc(100vh - 4rem);
 }
 
 .hero-data {
@@ -22,4 +25,26 @@
 
 .hero-description {
   color: var(--color-text);
+}
+
+/* =============== Small devices ================ */
+@media screen and (max-width: 900px) {
+  .hero-picture {
+    flex-basis: 100%;
+  }
+
+  .hero-data {
+    flex-basis: 100%
+  }
+}
+
+/* =============== Big devices ================ */
+@media screen and (min-width: 900px) {
+  .hero-picture {
+    flex-basis: 50%;
+  }
+
+  .hero-data {
+    flex-basis: 50%
+  }
 }

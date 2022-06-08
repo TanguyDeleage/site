@@ -68,13 +68,9 @@ img {
 }
 
 /* =========== Layout ====================== */
-.main-padding {
-  padding-left: 6rem;
-  padding-right: 6rem;
-}
 
 .section {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .section-beige {
@@ -138,4 +134,21 @@ img {
   color: var(--color-main);
   font-weight: var(--font-bold);
   font-size: var(--font-h3);
+}
+
+
+/* =============== Small devices ================ */
+@media screen and (max-width: 900px) {
+  .main-padding {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* =============== Big devices ================ */
+@media screen and (min-width: 900px) {
+  .main-padding {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
 }
