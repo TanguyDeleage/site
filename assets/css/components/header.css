@@ -29,3 +29,82 @@ height: 2rem;
   align-items: center;
   justify-content: space-around;
 }
+
+
+/* ============ Burger menu ================ */
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: var(--color-text-black);
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+.nav-active {
+  display: flex !important;
+}
+
+/* =========== Animation transition menu burger / croix */
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+
+/* =========== Small Devices ================= */
+@media screen and (max-width: 900px) {
+
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    top: 4rem;
+    height: 75vh;
+    background-color: var(--color-text-black);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+  }
+
+  .nav-links li a{
+    color: var(--color-text-white);
+  }
+
+  .burger {
+    display: block;
+  }
+}
+
+/* =========== Big Devices ================= */
+@media screen and (min-width: 900px) {
+
+  /* ============ Animation de soulignage des navlinks ============= */
+  .header a:after {
+    content: "";
+    position: absolute;
+    background-color: var(--color-text-white);
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: 0.4s;
+  }
+
+  .header a:hover:after {
+    width: 100%;
+  }
+
+}
