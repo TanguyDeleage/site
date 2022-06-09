@@ -92,7 +92,7 @@ height: 2rem;
 @media screen and (min-width: 900px) {
 
   /* ============ Animation de soulignage des navlinks ============= */
-  .header a:after {
+  .navbar a:after {
     content: "";
     position: absolute;
     background-color: var(--color-text-black);
@@ -103,7 +103,7 @@ height: 2rem;
     transition: 0.4s;
   }
 
-  .header a:hover:after {
+  .navbar a:hover:after {
     width: 100%;
   }
 
