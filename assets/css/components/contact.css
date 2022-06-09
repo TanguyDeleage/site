@@ -1,27 +1,44 @@
 .contact-section {
   display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
 }
 
 .contact-title {
   padding-top: 5rem;
 }
 
-.contact-data {
-  width: 50%;
-  padding-right: 2rem;
-}
-
-.contact-form {
-  width: 50%;
-  padding-left: 2rem;
+.contact-links {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .contact-links h4{
   color: var(--color-subtitles);
 }
 
-.contact-links h3 {
-  color: var(--color-text-black);
+
+/* =============== Small devices ================ */
+@media screen and (max-width: 900px) {
+  .contact-links {
+    flex-basis: 100%;
+  }
+
+  .contact-data {
+    flex-basis: 100%;
+  }
+
+}
+
+/* =============== Big devices ================ */
+@media screen and (min-width: 900px) {
+  .contact-links {
+    flex-basis: 50%;
+  }
+
+  .contact-data {
+    flex-basis: 50%;
+  }
+
 }
