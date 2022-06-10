@@ -1,5 +1,5 @@
 #logo {
-height: 2rem;
+height: 3rem;
 }
 
 .main-link {
@@ -12,6 +12,7 @@ height: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 1rem;
 }
 
 .header a {
@@ -38,10 +39,10 @@ height: 2rem;
 }
 
 .burger div {
-  width: 25px;
-  height: 3px;
+  width: 40px;
+  height: 5px;
   background-color: var(--color-text-black);
-  margin: 5px;
+  margin: 8px;
   transition: all 0.3s ease;
 }
 
@@ -52,7 +53,7 @@ height: 2rem;
 /* =========== Animation transition menu burger / croix */
 
 .toggle .line1 {
-  transform: rotate(-45deg) translate(-5px, 6px);
+  transform: rotate(-45deg) translate(-8px, 10px);
 }
 
 .toggle .line2 {
@@ -60,7 +61,7 @@ height: 2rem;
 }
 
 .toggle .line3 {
-  transform: rotate(45deg) translate(-5px, -6px);
+  transform: rotate(45deg) translate(-8px, -10px);
 }
 
 
@@ -81,6 +82,7 @@ height: 2rem;
 
   .nav-links li a{
     color: var(--color-text-white);
+    font-size: var(--font-h2);
   }
 
   .burger {
