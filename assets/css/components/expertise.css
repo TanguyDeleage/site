@@ -4,6 +4,7 @@
 
 .section-expertise-subtitle {
   color: var(--color-text-white);
+  text-align: justify;
 }
 
 .expertise-grid {
@@ -31,6 +32,7 @@
   border-radius: 0.5rem;
   padding: 1rem;
   height: 7rem;
+  width: 15rem;
 }
 
 .button-center {
