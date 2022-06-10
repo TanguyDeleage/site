@@ -122,7 +122,23 @@ img {
   align-items: center;
 }
 
+.link-button {
+  background-color: var(--color-main);
+  width: 25rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto 4rem auto
+}
+
 .contact-button p{
+  color: var(--color-text-white);
+  font-weight: var(--font-bold);
+}
+
+.link-button p {
   color: var(--color-text-white);
   font-weight: var(--font-bold);
 }
