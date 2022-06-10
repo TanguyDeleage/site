@@ -15,14 +15,30 @@
   border-radius: 0.5rem;
 }
 
+.grey {
+  filter: grayscale(1);
+}
+
+.grey:hover {
+  filter: grayscale(0);
+  transition: 0.7s;
+}
+
 .portfolio-title {
   margin-bottom: 0.25rem;
   font-weight: var(--font-bold);
-  color: var(--color-text-black);
+  color: var(--color-text-white);
 }
 
 .portfolio-subtitle {
-  color: var(--color-subtitles);
+  color: var(--color-text-white);
+}
+
+.portfolio-matematch {
+  background-image: url("../../img/projects/matematch/matematch-global.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* ========== Small Devices ============== */
