@@ -153,6 +153,36 @@ img {
   font-size: var(--font-h3);
 }
 
+/*  ================= HOVER ================== */
+.btn-opacity-change:hover {
+  opacity: 0.85;
+}
+
+.link-color-change:hover {
+  color: var(--color-secondary)!important;
+}
+
+#logo {
+  transition: all 0.6s ease-out;
+}
+
+#logo:hover {
+  transform: rotate(-90deg);
+  transition: all 0.6s ease-in;
+}
+
+/*==========)== SCROLL BAR =============*/
+::-webkit-scrollbar {
+  width: .8rem;
+  background-color: var(--color-text);
+  /* border-radius: .5rem; */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-subtitles);
+  border-radius: .5rem;
+}
+
 
 /* =============== Small devices ================ */
 @media screen and (max-width: 900px) {

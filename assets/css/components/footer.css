@@ -8,6 +8,7 @@
 }
 .footer  a {
   color: var(--color-main);
+  width: fit-content;
 }
 .footer  h4 {
   color: var(--color-text-white);
