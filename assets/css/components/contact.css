@@ -12,6 +12,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  min-height: 15vh;
+}
+
+.contact-data {
+  min-height: 36vh;
 }
 
 .contact-links h4{
