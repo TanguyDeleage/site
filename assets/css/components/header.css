@@ -71,7 +71,7 @@ height: 3rem;
   .nav-links {
     position: absolute;
     right: 0px;
-    top: 6rem;
+    top: 5rem;
     height: calc(100vh - 5rem);
     background-color: var(--color-text-black);
     display: none;

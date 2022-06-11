@@ -124,13 +124,14 @@ img {
 
 .link-button {
   background-color: var(--color-main);
-  width: 25rem;
+  width: fit-content;
   height: 3rem;
   border-radius: 0.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2rem auto 4rem auto
+  margin: 2rem auto 4rem auto;
+  padding: 1rem;
 }
 
 .contact-button p{
