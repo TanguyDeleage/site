@@ -11,9 +11,9 @@
 }
 
 .hero-picture {
-  padding-top: 5rem;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+  filter: grayscale(1);
 }
 
 .hero-title {

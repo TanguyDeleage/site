@@ -28,7 +28,6 @@ height: 3rem;
 .nav-links {
   display: flex;
   align-items: center;
-  justify-content: space-around;
 }
 
 
@@ -79,6 +78,7 @@ height: 3rem;
     align-items: center;
     width: 100%;
     z-index: 9999;
+    justify-content: space-around;
   }
 
   .nav-links li a{
@@ -94,6 +94,9 @@ height: 3rem;
 /* =========== Big Devices ================= */
 @media screen and (min-width: 900px) {
 
+  .nav-links {
+    justify-content: space-between;
+  }
   /* ============ Animation de soulignage des navlinks ============= */
   .navbar a:after {
     content: "";
