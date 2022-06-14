@@ -15,15 +15,6 @@
   border-radius: 0.5rem;
 }
 
-.grey {
-  filter: grayscale(1);
-}
-
-.grey:hover {
-  filter: grayscale(0);
-  transition: 0.7s;
-}
-
 .portfolio-title {
   margin-bottom: 0.25rem;
   font-weight: var(--font-bold);
@@ -56,5 +47,13 @@
 
   .portfolio-grid {
     grid-template-columns: 1fr 1fr;
+  }
+  .grey {
+    filter: grayscale(1);
+  }
+
+  .grey:hover {
+    filter: grayscale(0);
+    transition: 0.7s;
   }
 }
