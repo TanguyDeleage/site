@@ -20,7 +20,7 @@
 }
 
 .problems-title {
-  background-color: var(--color-text-black);
+  background-color: var(--color-subtitles);
   height: fit-content;
   color: var(--color-text-white);
   padding: 0.2rem 1rem 0.2rem 1rem;
@@ -29,7 +29,7 @@
 }
 
 .problems-content {
-  border: 3px var(--color-text-black) solid;
+  border: 3px var(--color-subtitles) solid;
   min-height: 8rem;
   padding: 0.5rem;
   border-radius: 0 0 0.3rem 0.3rem;
@@ -47,7 +47,7 @@
 }
 
 .skills-title {
-  background-color: var(--color-text-black);
+  background-color: var(--color-subtitles);
   height: fit-content;
   color: var(--color-text-white);
   padding: 0.2rem 1rem 0.2rem 1rem;
@@ -56,7 +56,7 @@
 }
 
 .skills-content {
-  border: 3px var(--color-text-black) solid;
+  border: 3px var(--color-subtitles) solid;
   min-height: 8rem;
   padding: 0.5rem;
   border-radius: 0 0 0.3rem 0.3rem;
