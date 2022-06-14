@@ -25,6 +25,7 @@
 
 .about-grid {
   display: grid;
+  grid-gap: 1rem;
 }
 
 .about-data {
@@ -47,8 +48,6 @@
   border: 1px solid black;
   border-radius: 0.5rem;
   padding: 1rem;
-  height: 11rem;
-  width: 20rem;
 }
 
 
@@ -63,6 +62,9 @@
   }
   .about-picture {
     flex-basis: 100%;
+  }
+  .quality-content {
+    width: 80vw;
   }
 }
 
@@ -80,5 +82,8 @@
 
   .about-picture {
     flex-basis: 30%;
+  }
+  .quality-content {
+    height: 11rem;
   }
 }
