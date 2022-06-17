@@ -6,7 +6,6 @@
 }
 
 .hero-data {
-  padding-top: 14rem;
   width: 70%;
 }
 
@@ -35,7 +34,8 @@
   }
 
   .hero-data {
-    flex-basis: 100%
+    flex-basis: 100%;
+    padding-top: 5rem;
   }
 }
 
@@ -46,6 +46,7 @@
   }
 
   .hero-data {
-    flex-basis: 50%
+    flex-basis: 50%;
+    padding-top: 14rem;
   }
 }

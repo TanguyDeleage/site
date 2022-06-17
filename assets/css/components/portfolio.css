@@ -8,7 +8,7 @@
 }
 
 .portfolio-project {
-  background-color: var(--color-subtitles);
+  background-color: var(--color-secondary);
   height: 30rem;
   width: 100%;
   padding: 1rem;
@@ -18,18 +18,29 @@
 .portfolio-title {
   margin-bottom: 0.25rem;
   font-weight: var(--font-bold);
-  color: var(--color-text-white);
+  color: var(--color-main);
 }
 
 .portfolio-subtitle {
-  color: var(--color-text-white);
+  color: var(--color-subtitles);
 }
 
-.portfolio-matematch {
-  background-image: url("../../img/projects/matematch/matematch-global.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.portfolio-data {
+  height: 20%;
+}
+
+.portfolio-picture {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  height: 80%;
+}
+
+.portfolio-picture img {
+  width: auto;
+  height: 100%;
+  object-fit: contain;
+  overflow: hidden;
 }
 
 /* ========== Small Devices ============== */

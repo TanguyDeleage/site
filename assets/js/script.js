@@ -18,5 +18,15 @@ const navSlide = () => {
   });
 }
 
+// A travailler
+const colorPortfolio = () => {
+  const project = document.querySelector('.portfolio-project');
+  const picture = document.querySelector('.portfolio-picture');
+
+  project.addEventListener('mouseover', () => {
+    picture.classList.toggle('grey');
+  })
+}
+
 
 navSlide();
