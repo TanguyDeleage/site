@@ -1,13 +1,22 @@
 .methodology-grid {
   display: grid;
-  margin-top: 7rem;
-  margin-bottom: 9rem;
-  grid-row-gap: 6rem;
-  grid-column-gap: 2rem;
+  margin-bottom: 3rem;
+  grid-gap: 2rem;
+  justify-items: center;
 }
 
 .methodology-step {
+  background-color: var(--color-text-white);
+  border-radius: 0.3rem;
   padding: 1rem;
+}
+
+.methodology-number {
+  font-size: 3rem;
+}
+
+.methodology-step p {
+  color: var(--color-subtitles);
 }
 
 
@@ -16,6 +25,10 @@
 
   .methodology-grid {
     grid-template-columns: 1fr;
+  }
+
+  .methodology-step {
+    width: 80%;
   }
 }
 
