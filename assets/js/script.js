@@ -20,13 +20,24 @@ const navSlide = () => {
 
 // A travailler
 const colorPortfolio = () => {
-  const project = document.querySelector('.portfolio-project');
-  const picture = document.querySelector('.portfolio-picture');
+  const project = document.querySelectorAll('.portfolio-project');
+  const picture = document.querySelectorAll('.portfolio-picture');
 
-  project.addEventListener('mouseover', () => {
+  // project.addEventListener('mouseenter', () => {
+  //   picture.classList.toggle('grey');
+  // });
+
+  project.forEach(function (element) {
+  element.addEventListener('mouseenter', () => {
+      picture.classList.toggle('grey');
+    });
+  });
+
+  project.addEventListener('mouseleave', () => {
     picture.classList.toggle('grey');
-  })
+  });
 }
 
 
 navSlide();
+colorPortfolio();
