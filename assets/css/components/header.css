@@ -30,6 +30,16 @@ height: 3rem;
   align-items: center;
 }
 
+/* ============= Logo animation ========== */
+#logo {
+  transition: all 0.6s ease-out;
+}
+
+#logo:hover {
+  transform: rotate(-90deg);
+  transition: all 0.6s ease-in;
+}
+
 
 /* ============ Burger menu ================ */
 .burger {
