@@ -88,21 +88,6 @@ img {
   justify-content: center;
 }
 
-.scroll-container {
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  height: 100vh;
-  scroll-behavior: smooth;
-}
-
-.scroll-section {
-  scroll-snap-align: start;
-}
-
-.scroll-section-mid {
-  scroll-snap-align: center;
-}
-
 
 /* =========== Margin ======================== */
  .mb-4 {
@@ -206,4 +191,20 @@ img {
     padding-left: 6rem;
     padding-right: 6rem;
   }
+
+  /* ============= Magnetic Scroll ========== */
+  .scroll-container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    scroll-behavior: smooth;
+  }
+
+  .scroll-section {
+    scroll-snap-align: start;
+  }
+
+  .scroll-section-mid {
+    scroll-snap-align: center;
+    }
 }
