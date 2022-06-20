@@ -19,10 +19,6 @@
   font-size: 4rem;
 }
 
-.about-picture {
-  transform: scaleX(-1);
-}
-
 .about-grid {
   display: grid;
   grid-gap: 1rem;
