@@ -88,6 +88,17 @@ img {
   justify-content: center;
 }
 
+.scroll-container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+.scroll-section {
+  scroll-snap-align: start;
+}
+
 
 /* =========== Margin ======================== */
  .mb-4 {
