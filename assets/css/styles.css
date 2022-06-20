@@ -99,6 +99,10 @@ img {
   scroll-snap-align: start;
 }
 
+.scroll-section-mid {
+  scroll-snap-align: center;
+}
+
 
 /* =========== Margin ======================== */
  .mb-4 {
