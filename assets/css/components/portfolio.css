@@ -2,6 +2,10 @@
   scroll-margin-top: 2rem;
 }
 
+.portfolio-section {
+  padding-top: 2rem;
+}
+
 .portfolio-grid {
   display: grid;
   grid-gap: 1rem;

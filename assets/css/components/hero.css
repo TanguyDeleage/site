@@ -1,8 +1,7 @@
 .hero-section {
-  height: fit-content;
   display: flex;
   flex-flow: wrap;
-  min-height: calc(100vh - 5rem);
+  height: calc(100vh - 5rem);
 }
 
 .hero-data {
