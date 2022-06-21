@@ -2,10 +2,9 @@
   display: flex;
   flex-flow: wrap;
   height: calc(100vh - 5rem);
-}
-
-.hero-data {
-  width: 70%;
+  max-height: fit-content;
+  overflow: hidden;
+  align-items: center;
 }
 
 .hero-picture {
@@ -49,6 +48,5 @@
 
   .hero-data {
     flex-basis: 50%;
-    padding-top: 14rem;
   }
 }
