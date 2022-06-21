@@ -12,7 +12,10 @@
 .hero-picture {
   display: flex;
   align-items: center;
+  justify-content: right;
   filter: grayscale(1);
+  height: calc(100vh - 5rem);
+  max-height: fit-content;
 }
 
 .hero-title {
