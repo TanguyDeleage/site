@@ -1,7 +1,7 @@
 .hero-section {
   display: flex;
   flex-flow: wrap;
-  height: calc(100vh - 5rem);
+  min-height: calc(100vh - 5rem);
   max-height: fit-content;
   overflow: hidden;
   align-items: center;
