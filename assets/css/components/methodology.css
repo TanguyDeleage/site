@@ -1,3 +1,9 @@
+.methodology-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .methodology-grid {
   display: grid;
   margin-bottom: 3rem;
