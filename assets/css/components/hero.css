@@ -42,7 +42,7 @@
 @media screen and (max-width: 900px) {
   .hero-picture {
     flex-basis: 100%;
-    height: 70vh;
+    height: fit-content;
     /* C'etait à 90 avant */
   }
 
