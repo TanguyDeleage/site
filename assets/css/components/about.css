@@ -41,23 +41,6 @@
   margin-bottom: 14rem;
 }
 
-.quality {
-  margin: 0 auto;
-  /* margin-bottom: 2rem; */
-}
-
-.quality-title {
-  margin-bottom: 1rem;
-  color: var(--color-text-black);
-}
-
-.quality-content {
-  color: var(--color-subtitles);
-  border: 1px solid black;
-  border-radius: 0.5rem;
-  padding: 1rem;
-}
-
 
 /* ========== Small Devices ============== */
 @media screen and (max-width: 900px) {
@@ -71,9 +54,6 @@
   .about-picture {
     flex-basis: 100%;
     margin-top: 8rem;
-  }
-  .quality-content {
-    width: 80vw;
   }
   .about-title {
     margin-bottom: 2rem;
@@ -98,8 +78,5 @@
 
   .about-picture {
     flex-basis: 40%;
-  }
-  .quality-content {
-    height: 11rem;
   }
 }
