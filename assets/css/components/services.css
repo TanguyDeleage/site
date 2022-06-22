@@ -1,7 +1,3 @@
-#SERVICES {
-  scroll-margin-top: 2rem;
-}
-
 .services-section {
   display: flex;
   flex-direction: column;
