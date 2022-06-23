@@ -1,19 +1,23 @@
 .contact-section {
   display: flex;
   justify-content: space-between;
-  flex-flow: wrap;
+  flex-flow: wrap-reverse;
   min-height: calc(100vh - 5rem);
   max-height: fit-content;
   align-items: center;
   padding-bottom: 1rem;
 }
 
+.contact-title {
+  font-size: 4rem;
+}
+
 .contact-links {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  min-height: 50vh;
+  min-height: 15vh; */
 }
 
 .contact-data {
