@@ -18,25 +18,6 @@ const navSlide = () => {
   });
 }
 
-
-// Matematch Portfolio - A optimiser avec un for each
-// const colorPortfolioMatematch = () => {
-
-//   const matematchProject = document.getElementById('matematch-portfolio-project');
-//   const matematchPicture = document.getElementById('matematch-portfolio-picture');
-
-//    // On hover change project color from grey to color
-//   matematchProject.addEventListener('mouseenter', () => {
-//     matematchPicture.classList.toggle('grey');
-//   });
-
-//    // When the mouse leave the project div, the picture goes back to grey
-//   matematchProject.addEventListener('mouseleave', () => {
-//     matematchPicture.classList.toggle('grey');
-//   });
-
-// };
-
 const colorPortfolio = () => {
 
   const project = document.querySelectorAll('.portfolio-project');
