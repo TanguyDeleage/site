@@ -2,21 +2,26 @@
   display: flex;
   justify-content: space-between;
   flex-flow: wrap;
-}
-
-.contact-title {
-  padding-top: 5rem;
+  min-height: calc(100vh - 5rem);
+  max-height: fit-content;
+  align-items: center;
+  padding-bottom: 1rem;
 }
 
 .contact-links {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  min-height: 15vh;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 50vh;
 }
 
 .contact-data {
-  min-height: 36vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 50vh;
 }
 
 .contact-links h4{
