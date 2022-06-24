@@ -13,6 +13,7 @@
 @import url("components/about.css");
 @import url("components/contact.css");
 @import url("components/scrollbar.css");
+@import url("components/buttons.css");
 
 /* ================= Base =============== */
 * {
@@ -107,59 +108,6 @@ img {
    margin-bottom: var(--mb-0-25);
   }
 
-
-/* =============== Button ============= */
-.contact-button {
-  background-color: var(--color-main);
-  width: fit-content;
-  height: 3rem;
-  border-radius: 0.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem 2rem 1rem 2rem;
-}
-
-.link-button {
-  background-color: var(--color-main);
-  width: fit-content;
-  height: 3rem;
-  border-radius: 0.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2rem auto 4rem auto;
-  padding: 1rem;
-}
-
-.contact-button p{
-  color: var(--color-text-white);
-  font-weight: var(--font-bold);
-}
-
-.link-button p {
-  color: var(--color-text-white);
-  font-weight: var(--font-bold);
-}
-
-.btn-center {
-  margin: 0 auto;
-}
-
-.about-button {
-  color: var(--color-main);
-  font-weight: var(--font-bold);
-  font-size: var(--font-h3);
-}
-
-/*  ================= HOVER ================== */
-.btn-opacity-change:hover {
-  opacity: 0.85;
-}
-
-.link-color-change:hover {
-  color: var(--color-secondary)!important;
-}
 
 
 /* =============== Small devices ================ */

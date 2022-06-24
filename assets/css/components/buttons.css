@@ -1,0 +1,43 @@
+/* =============== Contact Button ============= */
+.main-button {
+  background-color: var(--color-main);
+  width: fit-content;
+  height: 3rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+/* ============== Link stand alone =============== */
+
+
+.main-button p {
+  color: var(--color-text-white);
+  font-weight: var(--font-bold);
+}
+
+.link-button p {
+  color: var(--color-text-white);
+  font-weight: var(--font-bold);
+}
+
+.btn-center {
+  margin: 0 auto;
+}
+
+.about-button {
+  color: var(--color-main);
+  font-weight: var(--font-bold);
+  font-size: var(--font-h3);
+}
+
+/*  ================= HOVER ================== */
+.btn-opacity-change:hover {
+  opacity: 0.85;
+}
+
+.link-color-change:hover {
+  color: var(--color-secondary) !important;
+}
