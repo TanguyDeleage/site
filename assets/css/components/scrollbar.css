@@ -1,0 +1,10 @@
+::-webkit-scrollbar {
+  width: .8rem;
+  background-color: var(--color-text);
+  /* border-radius: .5rem; */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-subtitles);
+  border-radius: .5rem;
+}
