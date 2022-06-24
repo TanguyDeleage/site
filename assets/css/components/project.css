@@ -73,11 +73,6 @@
 
   .project-description {
     padding: 0 1rem;
-    margin-bottom: 6rem;
-  }
-
-  .scroll-up-button {
-    display: none;
   }
 
   .img-project {
@@ -99,26 +94,6 @@
 
   .project-description {
     padding: 0 5rem;
-    margin-bottom: 6rem;
-  }
-
-  .scroll-up-button {
-    padding: 1rem;
-    color: var(--color-text-white);
-    background-color: var(--color-main);
-    border-radius: 0.5rem;
-    display: flex;
-    height: 3rem;
-    width: 3rem;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 5rem;
-    right: 2rem;
-  }
-
-  .scroll-up-button i {
-    font-size: 1.5rem;
   }
 
   .img-project {

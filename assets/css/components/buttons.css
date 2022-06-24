@@ -1,5 +1,6 @@
-/* =============== Contact Button ============= */
-.main-button {
+/* =============== Main Button  ============= */
+
+.main-btn {
   background-color: var(--color-main);
   width: fit-content;
   height: 3rem;
@@ -10,34 +11,68 @@
   padding: 1rem 2rem 1rem 2rem;
 }
 
+.main-btn p {
+  color: var(--color-text-white);
+  font-weight: var(--font-bold);
+}
+
+.main-btn:hover {
+  opacity: 0.85;
+}
+
+
+
+
 /* ============== Link stand alone =============== */
 
-
-.main-button p {
-  color: var(--color-text-white);
+.text-btn {
+  color: var(--color-main);
   font-weight: var(--font-bold);
 }
 
-.link-button p {
-  color: var(--color-text-white);
-  font-weight: var(--font-bold);
+.text-btn:hover {
+  color: var(--color-secondary) !important;
 }
+
+
+
+/* ============= Button display on the page ============== */
 
 .btn-center {
   margin: 0 auto;
 }
 
-.about-button {
-  color: var(--color-main);
-  font-weight: var(--font-bold);
-  font-size: var(--font-h3);
-}
 
-/*  ================= HOVER ================== */
-.btn-opacity-change:hover {
-  opacity: 0.85;
-}
 
-.link-color-change:hover {
-  color: var(--color-secondary) !important;
+
+/* =============================== Small devices ============================ */
+@media screen and (max-width: 1006px) {
+  .up-btn {
+     display: none;
+   }
+}
+/* =============================== Big devices ============================ */
+@media screen and (min-width: 1006px) {
+  .up-btn {
+    padding: 1rem;
+    color: var(--color-text-white);
+    background-color: var(--color-main);
+    border-radius: 0.5rem;
+    display: flex;
+    height: 3rem;
+    width: 3rem;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 5rem;
+    right: 2rem;
+  }
+
+  .up-btn i {
+    font-size: 1.5rem;
+  }
+
+  .up-btn:hover {
+    opacity: 0.85;
+  }
 }
