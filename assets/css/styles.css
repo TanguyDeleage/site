@@ -15,7 +15,9 @@
 @import url("components/scrollbar.css");
 @import url("components/buttons.css");
 
-/* ================= Base =============== */
+
+
+/* ============================= Base ===================================== */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -69,7 +71,9 @@ img {
   height: auto;
 }
 
-/* =========== Layout ====================== */
+
+
+/* ================================ Layout ==================================== */
 
 .section {
   min-height: 100vh;
@@ -85,6 +89,7 @@ img {
   display: flex;
   justify-content: center;
 }
+
 
 
 /* =========== Margin ======================== */
@@ -115,7 +120,7 @@ img {
 
 
 
-/* =============== Small devices ================ */
+/* =================================== Small devices ==================================== */
 @media screen and (max-width: 900px) {
   .main-padding {
     padding-left: 2rem;
@@ -123,7 +128,8 @@ img {
   }
 }
 
-/* =============== Big devices ================ */
+
+/* =================================== Big devices ==================================== */
 @media screen and (min-width: 900px) {
   .main-padding {
     padding-left: 6rem;
