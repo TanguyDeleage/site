@@ -12,20 +12,13 @@
   font-size: 4rem;
 }
 
-.contact-links {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  min-height: 15vh; */
-}
-
 .contact-data {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  min-height: 50vh;
+  min-height: 60vh;
+  padding-top: 2rem;
 }
 
 .contact-links h4{

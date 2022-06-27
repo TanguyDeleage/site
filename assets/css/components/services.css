@@ -35,6 +35,7 @@
 .services-content {
   color: var(--color-subtitles);
   list-style: disc;
+  text-align: left;
 }
 
 .button-center {

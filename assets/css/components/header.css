@@ -45,6 +45,7 @@ height: 3rem;
 .burger {
   display: none;
   cursor: pointer;
+  z-index: 9999;
 }
 
 .burger div {
@@ -73,6 +74,9 @@ height: 3rem;
   transform: rotate(45deg) translate(-8px, -10px);
 }
 
+.no-scroll {
+  overflow-y: hidden;
+}
 
 /* =========== Small Devices ================= */
 @media screen and (max-width: 900px) {
@@ -80,19 +84,20 @@ height: 3rem;
   .nav-links {
     position: absolute;
     right: 0px;
-    top: 5rem;
-    height: calc(100vh - 5rem);
-    background-color: var(--color-text-black);
+    top: 0px;
+    height: 100vh;
+    background-color: var(--color-text-white);
     display: none;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    z-index: 9999;
+    z-index: 9998;
     justify-content: space-around;
+    padding-top: 2rem;
   }
 
   .nav-links li a{
-    color: var(--color-text-white);
+    color: var(--color-text-black);
     font-size: var(--font-h2);
   }
 

@@ -3,18 +3,20 @@
 const navSlide = () => {
   const burger = document.querySelector('.burger');
   const nav = document.querySelector('.nav-links');
+  const body = document.querySelector('body');
 
   // Ouvre le dropdown menu et le ferme en cliquant sur l'icône
   burger.addEventListener('click', () => {
     nav.classList.toggle('nav-active');
-
     burger.classList.toggle('toggle');
+    body.classList.toggle('no-scroll');
   });
 
   // Ferme le dropdown menu quand je clique sur un lien
   nav.addEventListener('click', () => {
     nav.classList.toggle('nav-active');
     burger.classList.toggle('toggle');
+    body.classList.toggle('no-scroll');
   });
 }
 
@@ -55,8 +57,4 @@ const colorPortfolio = () => {
 
 
 navSlide();
-// colorPortfolioMatematch();
-// colorPortfolioDailyUi();
-// colorPortfolioRallye();
-// colorPortfolioCoop();
 colorPortfolio();
