@@ -6,7 +6,7 @@
 
 .methodology-grid {
   display: grid;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
   grid-gap: 2rem;
   justify-items: center;
 }
@@ -18,11 +18,12 @@
 }
 
 .methodology-number {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .methodology-step p {
   color: var(--color-subtitles);
+  font-size: var(--font-small);
 }
 
 

@@ -35,6 +35,8 @@
 
 .hero-description {
   color: var(--color-text);
+  font-size: var(--font-h4);
+  padding-right: 2rem;
 }
 
 /* =============== Small devices ================ */
