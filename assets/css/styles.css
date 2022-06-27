@@ -126,6 +126,10 @@ img {
     padding-left: 2rem;
     padding-right: 2rem;
   }
+
+  .sm-mb-2 {
+    margin-bottom: 2rem;
+  }
 }
 
 
