@@ -10,23 +10,12 @@
   width: fit-content;
 }
 
-
 .footer-grid {
   display: grid;
 }
 
 .footer-copyright {
   font-size: 0.75rem;
-}
-
-.footer-resume {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-contact {
-  display: flex;
-  flex-direction: column;
 }
 
 /* ========== Small Devices ============== */

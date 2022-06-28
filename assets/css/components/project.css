@@ -5,15 +5,6 @@
   background-size: cover;
 }
 
-.project-data {
-  margin-bottom: 2rem;
-  text-align: justify;
-}
-
-.project-subtitle {
-  text-align: justify;
-}
-
 
 /* ============ Card Cover ================ */
 
@@ -39,13 +30,13 @@
 /* =========== Small Devices ================= */
 @media screen and (max-width: 1006px) {
 
-  .project-padding {
+  /* .project-padding {
     padding: 0 3rem;
   }
 
   .project-description {
     padding: 0 1rem;
-  }
+  } */
 
   .img-project {
     border-radius: 0.3rem;
@@ -60,13 +51,13 @@
 /* =========== Big Devices ================= */
 @media screen and (min-width: 1006px) {
 
-  .project-padding {
+  /* .project-padding {
     padding: 0 10rem;
   }
 
   .project-description {
     padding: 0 5rem;
-  }
+  } */
 
   .img-project {
     border-radius: 0.3rem;
