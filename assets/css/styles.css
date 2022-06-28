@@ -88,14 +88,6 @@ img {
   justify-content: center;
 }
 
-.grid {
-  display: grid;
-}
-
-.flex {
-  display: flex;
-}
-
 .flex-d-col {
   display: flex;
   flex-direction: column;

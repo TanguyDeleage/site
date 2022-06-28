@@ -1,4 +1,5 @@
 .hero-section {
+  display: flex;
   flex-flow: wrap;
   min-height: calc(100vh - 5rem);
   max-height: fit-content;
@@ -7,12 +8,14 @@
 }
 
 .hero-data {
+  display: flex;
   height: max-content;
   flex-direction: column;
   justify-content: center;
 }
 
 .hero-picture {
+  display: flex;
   align-items: center;
   justify-content: right;
   height: max-content;
