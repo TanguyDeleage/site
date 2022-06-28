@@ -9,6 +9,7 @@ const navSlide = () => {
   burger.addEventListener('click', () => {
     nav.classList.toggle('nav-active');
     burger.classList.toggle('toggle');
+    // Empêche de scroller sur le reste de la page quand la navbar est ouverte
     body.classList.toggle('no-scroll');
   });
 
