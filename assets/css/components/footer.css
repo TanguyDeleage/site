@@ -39,10 +39,6 @@
   .footer-grid {
     grid-template-columns: 1fr;
   }
-
-  .footer-contact {
-    margin-bottom: 2rem;
-  }
 }
 
 

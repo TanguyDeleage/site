@@ -77,12 +77,10 @@ img {
 
 .section {
   min-height: 100vh;
-  padding-bottom: 4rem;
 }
 
-.section-beige {
+.bg-beige {
   background-color: var(--color-secondary);
-  padding-top: 2rem;
 }
 
 .flex-center {
@@ -122,9 +120,8 @@ img {
 
 /* =================================== Small devices ==================================== */
 @media screen and (max-width: 900px) {
-  .main-padding {
-    padding-left: 2rem;
-    padding-right: 2rem;
+  .container {
+    padding: 2rem;
   }
 
   .sm-mb-2 {
@@ -135,9 +132,8 @@ img {
 
 /* =================================== Big devices ==================================== */
 @media screen and (min-width: 900px) {
-  .main-padding {
-    padding-left: 6rem;
-    padding-right: 6rem;
+  .container {
+    padding: 2rem 6rem;
   }
 
   /* ============= Magnetic Scroll ========== */

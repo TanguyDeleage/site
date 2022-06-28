@@ -8,7 +8,7 @@
 }
 
 .hero-data {
-  height: 85vh;
+  height: max-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,11 +18,12 @@
   display: flex;
   align-items: center;
   justify-content: right;
-  height: 85vh;
+  height: max-content;
 }
 
 .hero-picture img {
   max-height: 100%;
+  filter: grayscale(1);
 }
 
 .hero-title {
@@ -44,12 +45,10 @@
   .hero-picture {
     flex-basis: 100%;
     height: fit-content;
-    /* C'etait à 90 avant */
   }
 
   .hero-data {
     flex-basis: 100%;
-    height: 90vh;
   }
 }
 
