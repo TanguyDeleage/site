@@ -4,6 +4,7 @@ const navSlide = () => {
   const burger = document.querySelector('.burger');
   const nav = document.querySelector('.nav-links');
   const body = document.querySelector('body');
+  const container = document.querySelector('.scroll-container')
 
   // Ouvre le dropdown menu et le ferme en cliquant sur l'icône
   burger.addEventListener('click', () => {

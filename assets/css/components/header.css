@@ -71,12 +71,14 @@ height: 2.5rem;
 }
 
 .no-scroll {
-  overflow-y: hidden;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 /* =========== Small Devices ================= */
 @media screen and (max-width: 900px) {
+  body {
+    overflow-x: hidden;
+  }
 
   .nav-links {
     position: absolute;
