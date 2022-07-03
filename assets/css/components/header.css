@@ -58,7 +58,7 @@ height: 2.5rem;
 
 .nav-active {
   transform: translateX(0%) !important;
-  transition: all 0.7s ease-in;
+  transition: all 0.5s ease-in;
 }
 
 /* =========== Animation transition menu burger / croix */
