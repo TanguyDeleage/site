@@ -36,7 +36,6 @@ height: 2.5rem;
   opacity: 0.75;
 }
 
-
 /* ============ Burger menu ================ */
 .burger {
   display: none;
@@ -53,7 +52,8 @@ height: 2.5rem;
 }
 
 .nav-active {
-  display: flex !important;
+  transform: translateX(0%) !important;
+  transition: all 0.7s ease-in;
 }
 
 /* =========== Animation transition menu burger / croix */
@@ -72,6 +72,7 @@ height: 2.5rem;
 
 .no-scroll {
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 /* =========== Small Devices ================= */
@@ -83,13 +84,14 @@ height: 2.5rem;
     top: 0px;
     height: 100vh;
     background-color: var(--color-text-white);
-    display: none;
     flex-direction: column;
     align-items: center;
     width: 100%;
     z-index: 9998;
     justify-content: space-around;
     padding-top: 2rem;
+    transform: translateX(100%);
+    transition: all 0.7s ease-in;
   }
 
   .nav-links li a{
