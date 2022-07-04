@@ -77,13 +77,14 @@ height: 2.5rem;
 
 .no-scroll {
   overflow: hidden;
+  height: 100vh;
 }
 
 /* =========== Small Devices ================= */
 @media screen and (max-width: 900px) {
 
   .nav-links {
-    position: absolute;
+    position: fixed;
     right: 0px;
     top: 0px;
     height: 100vh;
