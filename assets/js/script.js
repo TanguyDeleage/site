@@ -57,6 +57,75 @@ const colorPortfolio = () => {
 
 };
 
+const cardPortfolio = () => {
+
+  const cardBig = document.querySelectorAll('.above-card')
+  const cardSmall = document.querySelectorAll('.card')
+  const circle = document.querySelectorAll('.circle')
+  const square = document.querySelectorAll('.square')
+  const text = document.querySelectorAll('.card-text')
+  const picture = document.querySelectorAll('.card-picture')
+
+  cardBig[0].addEventListener('mouseenter', () => {
+    cardSmall[0].classList.toggle('square');
+    cardSmall[0].classList.toggle('circle');
+    text[0].classList.toggle('hide');
+    picture[0].classList.toggle('grey');
+  });
+
+  cardBig[0].addEventListener('mouseleave', () => {
+    cardSmall[0].classList.toggle('square');
+    cardSmall[0].classList.toggle('circle');
+    text[0].classList.toggle('hide');
+    picture[0].classList.toggle('grey');
+  })
+
+
+  cardBig[1].addEventListener('mouseenter', () => {
+    cardSmall[1].classList.toggle('square');
+    cardSmall[1].classList.toggle('circle');
+    text[1].classList.toggle('hide');
+    picture[1].classList.toggle('grey');
+  });
+
+  cardBig[1].addEventListener('mouseleave', () => {
+    cardSmall[1].classList.toggle('square');
+    cardSmall[1].classList.toggle('circle');
+    text[1].classList.toggle('hide');
+    picture[1].classList.toggle('grey');
+  })
+
+
+  cardBig[2].addEventListener('mouseenter', () => {
+    cardSmall[2].classList.toggle('square');
+    cardSmall[2].classList.toggle('circle');
+    text[2].classList.toggle('hide');
+    picture[2].classList.toggle('grey');
+  });
+
+  cardBig[2].addEventListener('mouseleave', () => {
+    cardSmall[2].classList.toggle('square');
+    cardSmall[2].classList.toggle('circle');
+    text[2].classList.toggle('hide');
+    picture[2].classList.toggle('grey');
+  })
+
+  cardBig[3].addEventListener('mouseenter', () => {
+    cardSmall[3].classList.toggle('square');
+    cardSmall[3].classList.toggle('circle');
+    text[3].classList.toggle('hide');
+    picture[3].classList.toggle('grey');
+  });
+
+  cardBig[3].addEventListener('mouseleave', () => {
+    cardSmall[3].classList.toggle('square');
+    cardSmall[3].classList.toggle('circle');
+    text[3].classList.toggle('hide');
+    picture[3].classList.toggle('grey');
+  })
+};
+
 
 navSlide();
 colorPortfolio();
+cardPortfolio();
