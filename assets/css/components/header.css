@@ -89,7 +89,7 @@ height: 2.5rem;
     width: 100%;
     z-index: 9998;
     justify-content: space-around;
-    padding-top: 2rem;
+    padding: 3rem;
     transform: translateX(100%);
     transition: all 0.7s ease-in;
   }
