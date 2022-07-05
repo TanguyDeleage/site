@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   flex-flow: wrap-reverse;
-  min-height: calc(100vh - 5rem);
+  /* min-height: calc(100vh - 5rem); */
   max-height: fit-content;
   overflow: hidden;
 }
@@ -45,6 +45,10 @@
   .about-picture {
     flex-basis: 100%;
   }
+
+  .about-section {
+    height: fit-content;
+  }
 }
 
 
@@ -61,5 +65,9 @@
 
   .about-picture {
     flex-basis: 40%;
+  }
+
+  .about-section {
+    height: calc(100vh - 5rem);
   }
 }
