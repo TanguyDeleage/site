@@ -22,40 +22,7 @@ const navSlide = () => {
   });
 }
 
-const colorPortfolio = () => {
 
-  const project = document.querySelectorAll('.portfolio-project');
-  const picture = document.querySelectorAll('.portfolio-picture');
-
-  // On hover change project color from grey to color
-  project[0].addEventListener('mouseenter', () => {
-    picture[0].classList.toggle('grey');
-  });
-  project[1].addEventListener('mouseenter', () => {
-    picture[1].classList.toggle('grey');
-  });
-  project[2].addEventListener('mouseenter', () => {
-    picture[2].classList.toggle('grey');
-  });
-  project[3].addEventListener('mouseenter', () => {
-    picture[3].classList.toggle('grey');
-  });
-
-  // When the mouse leave the project div, the picture goes back to grey
-  project[0].addEventListener('mouseleave', () => {
-    picture[0].classList.toggle('grey');
-  });
-  project[1].addEventListener('mouseleave', () => {
-    picture[1].classList.toggle('grey');
-  });
-  project[2].addEventListener('mouseleave', () => {
-    picture[2].classList.toggle('grey');
-  });
-  project[3].addEventListener('mouseleave', () => {
-    picture[3].classList.toggle('grey');
-  });
-
-};
 
 const portfolioGreyToColor = () => {
 
@@ -94,5 +61,4 @@ const portfolioGreyToColor = () => {
 
 
 navSlide();
-// colorPortfolio();
 portfolioGreyToColor();
