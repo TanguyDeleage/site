@@ -57,75 +57,42 @@ const colorPortfolio = () => {
 
 };
 
-const cardPortfolio = () => {
+const portfolioGreyToColor = () => {
 
-  const cardBig = document.querySelectorAll('.above-card')
-  const cardSmall = document.querySelectorAll('.card')
-  const circle = document.querySelectorAll('.circle')
-  const square = document.querySelectorAll('.square')
-  const text = document.querySelectorAll('.card-text')
-  const picture = document.querySelectorAll('.card-picture')
+  const card = document.querySelectorAll('.above-card');
+  const picture = document.querySelectorAll('.card-picture');
 
-  cardBig[0].addEventListener('mouseenter', () => {
-    cardSmall[0].classList.toggle('square');
-    cardSmall[0].classList.toggle('circle');
-    text[0].classList.toggle('hide');
+  // On hover change project color from grey to color
+  card[0].addEventListener('mouseenter', () => {
     picture[0].classList.toggle('grey');
   });
-
-  cardBig[0].addEventListener('mouseleave', () => {
-    cardSmall[0].classList.toggle('square');
-    cardSmall[0].classList.toggle('circle');
-    text[0].classList.toggle('hide');
-    picture[0].classList.toggle('grey');
-  })
-
-
-  cardBig[1].addEventListener('mouseenter', () => {
-    cardSmall[1].classList.toggle('square');
-    cardSmall[1].classList.toggle('circle');
-    text[1].classList.toggle('hide');
+  card[1].addEventListener('mouseenter', () => {
     picture[1].classList.toggle('grey');
   });
-
-  cardBig[1].addEventListener('mouseleave', () => {
-    cardSmall[1].classList.toggle('square');
-    cardSmall[1].classList.toggle('circle');
-    text[1].classList.toggle('hide');
-    picture[1].classList.toggle('grey');
-  })
-
-
-  cardBig[2].addEventListener('mouseenter', () => {
-    cardSmall[2].classList.toggle('square');
-    cardSmall[2].classList.toggle('circle');
-    text[2].classList.toggle('hide');
+  card[2].addEventListener('mouseenter', () => {
     picture[2].classList.toggle('grey');
   });
-
-  cardBig[2].addEventListener('mouseleave', () => {
-    cardSmall[2].classList.toggle('square');
-    cardSmall[2].classList.toggle('circle');
-    text[2].classList.toggle('hide');
-    picture[2].classList.toggle('grey');
-  })
-
-  cardBig[3].addEventListener('mouseenter', () => {
-    cardSmall[3].classList.toggle('square');
-    cardSmall[3].classList.toggle('circle');
-    text[3].classList.toggle('hide');
+  card[3].addEventListener('mouseenter', () => {
     picture[3].classList.toggle('grey');
   });
 
-  cardBig[3].addEventListener('mouseleave', () => {
-    cardSmall[3].classList.toggle('square');
-    cardSmall[3].classList.toggle('circle');
-    text[3].classList.toggle('hide');
+  // When the mouse leave the project div, the picture goes back to grey
+  card[0].addEventListener('mouseleave', () => {
+    picture[0].classList.toggle('grey');
+  });
+  card[1].addEventListener('mouseleave', () => {
+    picture[1].classList.toggle('grey');
+  });
+  card[2].addEventListener('mouseleave', () => {
+    picture[2].classList.toggle('grey');
+  });
+  card[3].addEventListener('mouseleave', () => {
     picture[3].classList.toggle('grey');
-  })
+  });
+
 };
 
 
 navSlide();
-colorPortfolio();
-cardPortfolio();
+// colorPortfolio();
+portfolioGreyToColor();

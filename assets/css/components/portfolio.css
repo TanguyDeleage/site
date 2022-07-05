@@ -3,16 +3,7 @@
   grid-gap: 1rem;
 }
 
-.portfolio-project {
-  background-color: var(--color-secondary);
-  height: 30rem;
-  width: 100%;
-  padding: 1rem;
-  border-radius: 0.3rem;
-}
-
 .portfolio-title {
-  margin-bottom: 0.25rem;
   font-weight: var(--font-bold);
   color: var(--color-main);
 }
@@ -26,26 +17,6 @@
   font-size: var(--font-small);
 }
 
-.portfolio-data {
-  height: 20%;
-}
-
-.portfolio-picture {
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
-  height: 80%;
-  transform: 0.7s;
-}
-
-.portfolio-picture img {
-  width: auto;
-  height: 100%;
-  object-fit: contain;
-  overflow: hidden;
-}
-
-/* TTTTTEEEEESSSSSTTT */
 .above-card {
   display: flex;
   align-items: center;
@@ -54,16 +25,13 @@
   height: 25rem;
 }
 
-.hide {
-  opacity: 0;
-  overflow: hidden;
-  display: none;
-  transition: 0.8s;
-}
-
 .card-text {
   color: var(--color-text-black);
   padding: 1rem 0.5rem 1rem 1rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   transition: 0.8s;
 }
 
@@ -71,6 +39,7 @@
   z-index: 100;
   max-height: 25rem;
   max-width: 15rem;
+  transition: all 0.3s ease-in;
 }
 
 .card {
@@ -80,29 +49,48 @@
   transition: 0.6s;
   background-color: var(--color-secondary);
   z-index: 1;
-}
-
-.square {
   height: 20rem;
   width: 100%;
   border-radius: 0.5rem;
   justify-content: space-between;
 }
 
-.circle {
-  width: 20rem;
-  height: 20rem;
-  border-radius: 50%;
-  justify-content: center;
-}
 
 
 
 /* ========== Small Devices ============== */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 469px) {
 
   .portfolio-grid {
     grid-template-columns: 1fr;
+  }
+
+  .card-picture {
+    display: none;
+  }
+
+  .above-card {
+    height: 20rem;
+  }
+
+  .btn-project {
+    margin: 0 auto;
+  }
+
+  .portfolio-text {
+    text-align: center;
+  }
+}
+
+
+/* ========== Medium Devices ============== */
+@media screen and (min-width:470px) and (max-width: 899px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card-reverse {
+    flex-direction: row-reverse;
   }
 }
 
