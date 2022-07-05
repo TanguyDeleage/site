@@ -30,14 +30,6 @@
 /* =========== Small Devices ================= */
 @media screen and (max-width: 1006px) {
 
-  /* .project-padding {
-    padding: 0 3rem;
-  }
-
-  .project-description {
-    padding: 0 1rem;
-  } */
-
   .img-project {
     border-radius: 0.3rem;
     height: auto;
@@ -45,19 +37,19 @@
     display: block;
     margin: 0 auto;
   }
+
+  .container-project {
+    padding: 2rem;
+  }
 }
 
 
 /* =========== Big Devices ================= */
 @media screen and (min-width: 1006px) {
 
-  /* .project-padding {
-    padding: 0 10rem;
+  .container-project {
+    padding: 2rem 10rem;
   }
-
-  .project-description {
-    padding: 0 5rem;
-  } */
 
   .img-project {
     border-radius: 0.3rem;
