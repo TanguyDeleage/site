@@ -1,11 +1,10 @@
 .contact-section {
   display: flex;
   justify-content: space-between;
-  flex-flow: wrap-reverse;
+  flex-flow: wrap;
   /* min-height: calc(100vh - 5rem); */
   max-height: fit-content;
   align-items: center;
-  flex-direction: row-reverse;
 }
 
 .contact-title {
@@ -17,12 +16,14 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  min-height: 60vh;
+  /* height: -webkit-fill-available; */
+  /* height: -moz-available; */
+
 }
 
-.contact-links h4{
-  color: var(--color-subtitles);
-  font-weight: var(--font-regular);
+.contact-links {
+  display: flex;
+  flex-direction: column;
 }
 
 /* === Test Form === */
@@ -30,8 +31,8 @@
 .contact-form {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  min-height: 60vh;
+  justify-content: end;
+  /* min-height: 60vh; */
 }
 
 .form-request {
@@ -44,28 +45,26 @@ form input, textarea, button {
   outline: none;
   font-size: var(--font-small);
   color: var(--color-text-black);
-  padding: 1rem 0;
 }
 
 form input, textarea {
-  border-bottom: 1px solid var(--color-text);
+  background-color: var(--color-secondary);
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
 
 form ::placeholder {
   color: var(--color-text);
-  font-size: var(--font-p);
+  font-size: var(--font-small);
 }
 
 
 
 
 /* =============== Small devices ================ */
-@media screen and (max-width: 900px) {
-  .contact-links {
-    flex-basis: 100%;
-  }
+@media screen and (max-width: 992px) {
 
-  .contact-data {
+  .contact-data, .contact-form {
     flex-basis: 100%;
   }
 
@@ -76,18 +75,21 @@ form ::placeholder {
 }
 
 /* =============== Big devices ================ */
-@media screen and (min-width: 900px) {
-  .contact-links {
+@media screen and (min-width: 992px) {
+
+  .contact-form {
     flex-basis: 50%;
-    padding-left: 4rem;
+    min-height: calc(100vh - 11rem);
   }
 
   .contact-data {
-    flex-basis: 50%;
+    flex-basis: 45%;
+    min-height: calc(100vh - 11rem);
   }
 
   .contact-section {
     height: calc(100vh - 5rem);
   }
+
 
 }
