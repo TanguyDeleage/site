@@ -18,6 +18,7 @@
 
 .main-btn:hover {
   opacity: 0.85;
+  cursor: pointer;
 }
 
 

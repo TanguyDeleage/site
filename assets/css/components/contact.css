@@ -5,6 +5,7 @@
   /* min-height: calc(100vh - 5rem); */
   max-height: fit-content;
   align-items: center;
+  flex-direction: row-reverse;
 }
 
 .contact-title {
@@ -22,6 +23,39 @@
 .contact-links h4{
   color: var(--color-subtitles);
 }
+
+/* === Test Form === */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 60vh;
+}
+
+.form-request {
+  height: 20vh;
+}
+
+form input, textarea, button {
+  font-family: var(--font);
+  border: none;
+  outline: none;
+  font-size: var(--font-small);
+  color: var(--color-text-black);
+  padding: 1rem 0;
+}
+
+form input, textarea {
+  border-bottom: 1px solid var(--color-text);
+}
+
+form ::placeholder {
+  color: var(--color-text);
+  font-size: var(--font-p);
+}
+
+
 
 
 /* =============== Small devices ================ */
@@ -44,6 +78,7 @@
 @media screen and (min-width: 900px) {
   .contact-links {
     flex-basis: 50%;
+    padding-left: 5rem;
   }
 
   .contact-data {
