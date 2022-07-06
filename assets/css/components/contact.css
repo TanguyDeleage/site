@@ -22,6 +22,7 @@
 
 .contact-links h4{
   color: var(--color-subtitles);
+  font-weight: var(--font-regular);
 }
 
 /* === Test Form === */
