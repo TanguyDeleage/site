@@ -27,10 +27,6 @@
   font-weight: var(--font-semi-bold);
 }
 
-.services-subtitle {
-  text-align: left;
-}
-
 .services-content {
   color: var(--color-subtitles);
   list-style: disc;
