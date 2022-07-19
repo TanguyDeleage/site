@@ -15,7 +15,7 @@
 .portfolio-text {
   color: var(--color-text);
   font-size: var(--font-small);
-  text-align: justify;
+  text-align: left;
 }
 
 .above-card {
