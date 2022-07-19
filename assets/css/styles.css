@@ -130,7 +130,7 @@ img {
 
 
 /* =================================== Small devices ==================================== */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 930px) {
   .container {
     padding: 2rem;
   }
@@ -142,7 +142,7 @@ img {
 
 
 /* =================================== Big devices ==================================== */
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 930px) {
   .container {
     padding: 2rem 6rem;
   }

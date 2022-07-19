@@ -43,7 +43,7 @@
 
 
 /* ========== Small Devices ============== */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 930px) {
   .problems-box {
     flex-basis: 100%;
   }
@@ -60,7 +60,7 @@
 
 
 /* ============= Big Devices ============ */
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 930px) {
   .problems-box {
     flex-basis: 50%;
   }

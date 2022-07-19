@@ -27,7 +27,7 @@
 
 
 /* ========== Small Devices ============== */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 930px) {
 
   .methodology-grid {
     grid-template-columns: 1fr;
@@ -41,7 +41,7 @@
 
 
 /* ============= Big Devices ============ */
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 930px) {
 
   .methodology-grid {
     grid-template-columns: 1fr 1fr 1fr;
