@@ -1,0 +1,10 @@
+.reassurance-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo-list {
+  display: flex;
+  justify-content: space-between;
+}
