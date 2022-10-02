@@ -1,0 +1,85 @@
+.offers-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.offers-grid {
+  display: grid;
+  grid-gap: 2rem;
+  justify-items: center;
+  align-items: center;
+  /* min-height: 60vh; */
+}
+
+.offers-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--color-secondary);
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.my-offer-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--color-text-white);
+  border: 0.5rem solid var(--color-main);
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.offers-subtitle{
+  color: var(--color-subtitles);
+}
+
+.offers-icon {
+  height: 1rem;
+}
+
+.offers-content {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: var(--font-small);
+}
+
+
+/* ========== Small Devices ============== */
+@media screen and (max-width: 930px) {
+
+  .offers-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .offers-box {
+    width: 80%;
+  }
+}
+
+
+
+/* ============= Big Devices ============ */
+@media screen and (min-width: 930px) {
+
+  .offers-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .offers-box {
+    width: 100%;
+    min-height: 20rem;
+  }
+
+  .my-offer-box {
+    width: 100%;
+    min-height: 25rem;
+  }
+
+}

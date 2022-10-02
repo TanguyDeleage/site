@@ -7,7 +7,7 @@
 @import url("components/hero.css");
 @import url("components/reassurance.css");
 @import url("components/services.css");
-@import url("components/choose-me.css");
+@import url("components/offers.css");
 @import url("components/portfolio.css");
 @import url("components/methodology.css");
 @import url("components/footer.css");
@@ -99,6 +99,13 @@ img {
 
 .justify-text {
   text-align: justify;
+}
+
+.divider {
+  width: 90vw;
+  height: 1px;
+  background-color: var(--color-subtitles);
+  margin: 0 auto;
 }
 
 
