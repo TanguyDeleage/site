@@ -10,7 +10,6 @@
   grid-gap: 2rem;
   justify-items: center;
   align-items: center;
-  /* min-height: 60vh; */
 }
 
 .offers-box {
@@ -34,25 +33,29 @@
   padding: 2rem;
 }
 
-.offers-subtitle{
+.card-subtitle{
   color: var(--color-subtitles);
 }
 
-.offers-icon {
+.persona-verbatim {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.persona-verbatim img {
   height: 1rem;
 }
 
-.offers-content {
+.persona-verbatim p {
+  font: var(--font-small);
   text-align: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  font-size: var(--font-small);
 }
 
 
+
 /* ========== Small Devices ============== */
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 980px) {
 
   .offers-grid {
     grid-template-columns: 1fr;
@@ -60,13 +63,20 @@
 
   .offers-box {
     width: 80%;
+    min-height: 15rem;
   }
+
+  .my-offer-box {
+    width: 100%;
+    min-height: 18rem;
+  }
+
 }
 
 
 
 /* ============= Big Devices ============ */
-@media screen and (min-width: 930px) {
+@media screen and (min-width: 980px) {
 
   .offers-grid {
     grid-template-columns: 1fr 1fr 1fr;

@@ -108,6 +108,12 @@ img {
   margin: 0 auto;
 }
 
+.section-title {
+  display: flex;
+  justify-content: left;
+  width: 100%;
+}
+
 
 
 /* =========== Margin ======================== */

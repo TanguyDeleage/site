@@ -7,4 +7,15 @@
 .logo-list {
   display: flex;
   justify-content: space-between;
+  flex-basis: auto;
+}
+
+.brand-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.brand-logo img{
+  max-width: 12rem;
 }
