@@ -5,17 +5,33 @@
 }
 
 .logo-list {
-  display: flex;
-  justify-content: space-between;
-  flex-basis: auto;
+  display: grid;
+
 }
 
 .brand-logo {
   display: flex;
   justify-content: center;
-  align-items: center
+  align-items: center;
+  min-height: 8rem;
 }
 
 .brand-logo img{
   max-width: 12rem;
+}
+
+/* ========== Small Devices ============== */
+@media screen and (max-width: 600px) {
+  .logo-list {
+    flex-direction: column;
+  }
+}
+
+
+
+/* ============= Big Devices ============ */
+@media screen and (min-width: 600px) {
+  .logo-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
