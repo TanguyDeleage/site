@@ -1,37 +1,59 @@
 .footer {
-  background-color: black;
+  background-color: var(--color-secondary);
 }
 
-.footer  p, h4 {
-  color: var(--color-text-white);
-}
-.footer  a {
-  color: var(--color-main);
-  width: fit-content;
+.footer-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
-.footer-grid {
-  display: grid;
+.logotitle {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: var(--font-bold);
+  height: max-content;
 }
 
-.footer-copyright {
-  font-size: 0.75rem;
+.logotitle h2{
+  font-weight: var(--font-bold);
 }
+
+.logotitle img{
+  height: 2.5rem;
+}
+
+.contact-footer {
+  width: max-content;
+}
+
+.contact-links a {
+  color: var(--color-subtitles);
+  font-weight: var(--font-bold);
+}
+
+.contact-links a:hover {
+  color: var(--color-text);
+}
+
+.footer-copyright p{
+  font-size: var(--font-small);
+}
+
 
 /* ========== Small Devices ============== */
-@media screen and (max-width: 930px) {
-
-  .footer-grid {
-    grid-template-columns: 1fr;
+@media screen and (max-width: 600px) {
+  .footer-content {
+    flex-direction: column;
   }
 }
 
 
 
 /* ============= Big Devices ============ */
-@media screen and (min-width: 930px) {
-
-  .footer-grid {
-    grid-template-columns: 1fr 1fr;
+@media screen and (min-width: 600px) {
+  .footer-content {
+    flex-direction: row;
   }
 }
