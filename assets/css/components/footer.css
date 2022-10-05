@@ -32,7 +32,7 @@
   width: max-content;
 }
 
-.contact-links a {
+.contact-footer .contact-links a {
   color: var(--color-subtitles);
   font-weight: var(--font-bold);
 }
