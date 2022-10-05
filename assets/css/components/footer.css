@@ -2,6 +2,10 @@
   background-color: var(--color-secondary);
 }
 
+.footer-white {
+  background-color: var(--color-text-white);
+}
+
 .footer-content {
   display: flex;
   align-items: flex-start;

@@ -6,6 +6,7 @@
 
 .logo-list {
   display: grid;
+  filter: grayscale(1);
 
 }
 
