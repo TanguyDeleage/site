@@ -59,16 +59,6 @@ const portfolioGreyToColor = () => {
 
 };
 
-
-const test = () => {
-  const body = document.querySelector('body');
-
-  body.addEventListener('click', () => {
-    body.scrollTop = 350;
-  });
-};
-
-
 navSlide();
 portfolioGreyToColor();
 test();
