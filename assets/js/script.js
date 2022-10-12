@@ -61,4 +61,3 @@ const portfolioGreyToColor = () => {
 
 navSlide();
 portfolioGreyToColor();
-test();
