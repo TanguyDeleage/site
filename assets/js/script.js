@@ -63,15 +63,19 @@ const scroller = () => {
 
   const scrollUser = scrollY;
 
+  // random value below
   const scrollTargetServices = 350;
   const services = document.querySelector('.services-grid');
   const body = document.querySelector('body');
 
+
   body.addEventListener('click', () => {
     services.classList.remove('test');
+    console.log(scrollUser);
   })
 
-
+// Main problem is the overflow y fixed to scroll on the scroll container, it disbled the scrollY property
+// But works if the scroll container property is fixed on the html and body !!!!
   if (scrollUser > scrollTargetServices) {
     services.classList.remove('test');
     console.log("ça marche");

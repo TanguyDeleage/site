@@ -42,7 +42,8 @@
 
 .test {
   opacity: 0%;
-  transform: translateY(15rem);
+  transform: translateY(10rem);
+  transition: ease-out;
 }
 
 /* ========== Small Devices ============== */
