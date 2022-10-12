@@ -8,6 +8,8 @@
   display: grid;
   grid-gap: 2rem;
   justify-items: center;
+  /* Relier à test */
+  transition: opacity 0.8s, transform 0.8s;
 }
 
 .services-box {
@@ -38,6 +40,10 @@
   margin: 0 auto;
 }
 
+.test {
+  opacity: 0%;
+  transform: translateY(15rem);
+}
 
 /* ========== Small Devices ============== */
 @media screen and (max-width: 930px) {

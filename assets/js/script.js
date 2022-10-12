@@ -59,6 +59,26 @@ const portfolioGreyToColor = () => {
 
 };
 
+const scroller = () => {
+
+  const scrollUser = scrollY;
+
+  const scrollTargetServices = 350;
+  const services = document.querySelector('.services-grid');
+  const body = document.querySelector('body');
+
+  body.addEventListener('click', () => {
+    services.classList.remove('test');
+  })
+
+
+  if (scrollUser > scrollTargetServices) {
+    services.classList.remove('test');
+    console.log("ça marche");
+  };
+
+};
+
 // scroll Utilisateur = scrollY
 // scrollTargetServices = integer
 // if scrollUtilisateur > scrollTargetServices
@@ -66,4 +86,4 @@ const portfolioGreyToColor = () => {
 
 navSlide();
 portfolioGreyToColor();
-console.log(scrollY);
+scroller();
