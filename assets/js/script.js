@@ -59,5 +59,11 @@ const portfolioGreyToColor = () => {
 
 };
 
+// scroll Utilisateur = scrollY
+// scrollTargetServices = integer
+// if scrollUtilisateur > scrollTargetServices
+//  les cards.remove(opacity, transformY) avec un delay
+
 navSlide();
 portfolioGreyToColor();
+console.log(scrollY);
