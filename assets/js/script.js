@@ -59,18 +59,16 @@ const portfolioGreyToColor = () => {
 
 };
 
-const scroller = () => {
+const scrollerServices = () => {
 
-  // const scrollUser = scrollY || window.pageYOffset;
   const scrollTargetServices = 780;
   const services = document.querySelector('.services-grid');
 
   window.addEventListener("scroll", function () {
-    // console.log(this.scrollY || window.pageYOffset);
     const scrollUser = this.scrollY || window.pageYOffset;
 
     if (scrollUser > scrollTargetServices) {
-      services.classList.remove('test');
+      services.classList.remove('services-js-animation');
     };
   });
 };
@@ -78,4 +76,4 @@ const scroller = () => {
 
 navSlide();
 portfolioGreyToColor();
-scroller();
+scrollerServices();

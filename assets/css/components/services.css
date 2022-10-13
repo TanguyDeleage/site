@@ -70,7 +70,7 @@
     width: 100%;
   }
 
-  .test {
+  .services-js-animation {
     opacity: 0%;
     transform: translateY(10rem);
     transition: ease-out;
