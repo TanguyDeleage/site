@@ -9,7 +9,7 @@
   display: grid;
   grid-gap: 2rem;
   justify-items: center;
-  transition: opacity 0.6s, transform 0.6s ease-out 0s;
+  transition: opacity 0.8s, transform 0.8s ease-out 0s;
 }
 
 .services-box {
