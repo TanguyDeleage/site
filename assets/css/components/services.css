@@ -40,12 +40,6 @@
   margin: 0 auto;
 }
 
-.test {
-  opacity: 0%;
-  transform: translateY(10rem);
-  transition: ease-out;
-}
-
 /* ========== Small Devices ============== */
 @media screen and (max-width: 930px) {
   .problems-box {
@@ -74,6 +68,12 @@
 
   .services-box {
     width: 100%;
+  }
+
+  .test {
+    opacity: 0%;
+    transform: translateY(10rem);
+    transition: ease-out;
   }
 
 }

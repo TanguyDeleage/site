@@ -72,7 +72,6 @@ const scroller = () => {
 
     if (scrollUser > scrollTargetServices) {
       services.classList.remove('test');
-      console.log(scrollUser);
     };
   });
 };
