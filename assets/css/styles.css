@@ -161,11 +161,18 @@ img {
   .container {
     padding: 2rem 6rem;
   }
+  html {
+    scroll-snap-type: y mandatory;
+  }
+
+  body {
+    scroll-snap-type: y mandatory;
+  }
 
   /* ============= Magnetic Scroll ========== */
   .scroll-container {
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
+    /* scroll-snap-type: y mandatory; */
+    /* overflow-y: scroll; */
     height: 100vh;
     scroll-behavior: smooth;
   }
@@ -176,5 +183,9 @@ img {
 
   .scroll-section-mid {
     scroll-snap-align: center;
-    }
+  }
+
+  .scroll-section-end {
+    scroll-snap-align: end;
+  }
 }

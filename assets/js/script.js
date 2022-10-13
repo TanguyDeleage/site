@@ -61,32 +61,22 @@ const portfolioGreyToColor = () => {
 
 const scroller = () => {
 
-  const scrollUser = scrollY;
-
-  // random value below
-  const scrollTargetServices = 350;
+  // const scrollUser = scrollY || window.pageYOffset;
+  const scrollTargetServices = 780;
   const services = document.querySelector('.services-grid');
   const body = document.querySelector('body');
 
+  window.addEventListener("scroll", function () {
+    // console.log(this.scrollY || window.pageYOffset);
+    const scrollUser = this.scrollY || window.pageYOffset;
 
-  body.addEventListener('click', () => {
-    services.classList.remove('test');
-    console.log(scrollUser);
-  })
-
-// Main problem is the overflow y fixed to scroll on the scroll container, it disbled the scrollY property
-// But works if the scroll container property is fixed on the html and body !!!!
-  if (scrollUser > scrollTargetServices) {
-    services.classList.remove('test');
-    console.log("ça marche");
-  };
-
+    if (scrollUser > scrollTargetServices) {
+      services.classList.remove('test');
+      console.log(scrollUser);
+    };
+  });
 };
 
-// scroll Utilisateur = scrollY
-// scrollTargetServices = integer
-// if scrollUtilisateur > scrollTargetServices
-//  les cards.remove(opacity, transformY) avec un delay
 
 navSlide();
 portfolioGreyToColor();
