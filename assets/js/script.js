@@ -64,7 +64,6 @@ const scroller = () => {
   // const scrollUser = scrollY || window.pageYOffset;
   const scrollTargetServices = 780;
   const services = document.querySelector('.services-grid');
-  const body = document.querySelector('body');
 
   window.addEventListener("scroll", function () {
     // console.log(this.scrollY || window.pageYOffset);
