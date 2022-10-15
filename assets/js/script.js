@@ -18,7 +18,7 @@ const navSlide = () => {
   nav.addEventListener('click', () => {
     nav.classList.toggle('nav-active');
     burger.classList.toggle('toggle');
-    body.classList.toggle('no-scroll');
+    body.classList.remove('no-scroll');
   });
 }
 
