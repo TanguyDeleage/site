@@ -30,33 +30,20 @@ const portfolioGreyToColor = () => {
   const picture = document.querySelectorAll('.card-picture');
 
   // On hover change project color from grey to color
-  card[0].addEventListener('mouseenter', () => {
-    picture[0].classList.toggle('grey');
-  });
-  card[1].addEventListener('mouseenter', () => {
-    picture[1].classList.toggle('grey');
-  });
-  card[2].addEventListener('mouseenter', () => {
-    picture[2].classList.toggle('grey');
-  });
-  card[3].addEventListener('mouseenter', () => {
-    picture[3].classList.toggle('grey');
+  card.forEach(function(element, index) {
+    element.addEventListener('mouseenter', () => {
+      var item = picture[index];
+      item.classList.toggle('grey');
+    });
   });
 
-  // When the mouse leave the project div, the picture goes back to grey
-  card[0].addEventListener('mouseleave', () => {
-    picture[0].classList.toggle('grey');
+  // When hover stop, picture goes back to grey
+  card.forEach(function (element, index) {
+    element.addEventListener('mouseleave', () => {
+      var item = picture[index];
+      item.classList.toggle('grey');
+    });
   });
-  card[1].addEventListener('mouseleave', () => {
-    picture[1].classList.toggle('grey');
-  });
-  card[2].addEventListener('mouseleave', () => {
-    picture[2].classList.toggle('grey');
-  });
-  card[3].addEventListener('mouseleave', () => {
-    picture[3].classList.toggle('grey');
-  });
-
 };
 
 const scrollerServices = () => {
