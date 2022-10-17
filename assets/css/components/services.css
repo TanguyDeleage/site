@@ -71,10 +71,9 @@
     width: 100%;
   }
 
-  .services-js-animation {
+  .slide-up-js {
     opacity: 0%;
     transform: translateY(10rem);
-    transition: ease-out;
   }
 
 }

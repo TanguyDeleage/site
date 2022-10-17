@@ -55,12 +55,12 @@ const portfolioGreyToColor = () => {
 //     const scrollUser = this.scrollY || window.pageYOffset;
 
 //     if (scrollUser > scrollTargetServices) {
-//       services.classList.remove('services-js-animation');
+//       services.classList.remove('slide-up-js');
 //     };
 //   });
 // };
 
-const slideUP = () => {
+const slideInJs = () => {
 
   const services1Target = 720;
   const services2Target = 780;
@@ -74,13 +74,35 @@ const slideUP = () => {
     const scrollUser = this.scrollY || window.pageYOffset;
 
     if (scrollUser > services1Target) {
-      services1.classList.remove('services-js-animation');
+      services1.classList.remove('slide-up-js');
     };
     if (scrollUser > services2Target) {
-      services2.classList.remove('services-js-animation');
+      services2.classList.remove('slide-up-js');
     };
     if (scrollUser > services3Target) {
-      services3.classList.remove('services-js-animation');
+      services3.classList.remove('slide-up-js');
+    };
+  });
+
+  const portfolioRow1Target = 2220
+  const portfolioRow2Target = 2270
+
+  const portfolioCard1 = document.querySelector('.portfolio-card-1');
+  const portfolioCard2 = document.querySelector('.portfolio-card-2');
+  const portfolioCard3 = document.querySelector('.portfolio-card-3');
+  const portfolioCard4 = document.querySelector('.portfolio-card-4');
+
+  window.addEventListener("scroll", function () {
+    const scrollUser = this.scrollY || window.pageYOffset;
+
+    if (scrollUser > portfolioRow1Target) {
+      portfolioCard1.classList.remove('slide-right-js');
+      portfolioCard2.classList.remove('slide-right-js');
+    };
+
+    if (scrollUser > portfolioRow2Target) {
+      portfolioCard3.classList.remove('slide-left-js');
+      portfolioCard4.classList.remove('slide-left-js');
     };
   });
 };
@@ -89,4 +111,4 @@ const slideUP = () => {
 navSlide();
 portfolioGreyToColor();
 // scrollerServices();
-slideUP();
+slideInJs();
