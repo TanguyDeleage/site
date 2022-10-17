@@ -46,16 +46,41 @@ const portfolioGreyToColor = () => {
   });
 };
 
-const scrollerServices = () => {
+// const scrollerServices = () => {
 
-  const scrollTargetServices = 780;
-  const services = document.querySelector('.services-grid');
+//   const scrollTargetServices = 780;
+//   const services = document.querySelector('.services-grid');
+
+//   window.addEventListener("scroll", function () {
+//     const scrollUser = this.scrollY || window.pageYOffset;
+
+//     if (scrollUser > scrollTargetServices) {
+//       services.classList.remove('services-js-animation');
+//     };
+//   });
+// };
+
+const slideUP = () => {
+
+  const services1Target = 720;
+  const services2Target = 780;
+  const services3Target = 840;
+
+  const services1 = document.querySelector('.visibility');
+  const services2 = document.querySelector('.credibility');
+  const services3 = document.querySelector('.efficacity');
 
   window.addEventListener("scroll", function () {
     const scrollUser = this.scrollY || window.pageYOffset;
 
-    if (scrollUser > scrollTargetServices) {
-      services.classList.remove('services-js-animation');
+    if (scrollUser > services1Target) {
+      services1.classList.remove('services-js-animation');
+    };
+    if (scrollUser > services2Target) {
+      services2.classList.remove('services-js-animation');
+    };
+    if (scrollUser > services3Target) {
+      services3.classList.remove('services-js-animation');
     };
   });
 };
@@ -63,4 +88,5 @@ const scrollerServices = () => {
 
 navSlide();
 portfolioGreyToColor();
-scrollerServices();
+// scrollerServices();
+slideUP();
