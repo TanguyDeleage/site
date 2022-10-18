@@ -84,8 +84,8 @@ const slideInJs = () => {
     };
   });
 
-  const portfolioRow1Target = 2220
-  const portfolioRow2Target = 2270
+  const portfolioRow1Target = 2150
+  const portfolioRow2Target = 2200
 
   const portfolioCard1 = document.querySelector('.portfolio-card-1');
   const portfolioCard2 = document.querySelector('.portfolio-card-2');
