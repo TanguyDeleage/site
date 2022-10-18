@@ -62,6 +62,7 @@ const portfolioGreyToColor = () => {
 
 const slideInJs = () => {
 
+  // Services section slideIn
   const services1Target = 720;
   const services2Target = 780;
   const services3Target = 840;
@@ -70,20 +71,23 @@ const slideInJs = () => {
   const services2 = document.querySelector('.credibility');
   const services3 = document.querySelector('.efficacity');
 
-  window.addEventListener("scroll", function () {
-    const scrollUser = this.scrollY || window.pageYOffset;
+  if (window.location.pathname == '/') {
+    window.addEventListener("scroll", function () {
+      const scrollUser = this.scrollY || window.pageYOffset;
 
-    if (scrollUser > services1Target) {
-      services1.classList.remove('slide-up-js');
-    };
-    if (scrollUser > services2Target) {
-      services2.classList.remove('slide-up-js');
-    };
-    if (scrollUser > services3Target) {
-      services3.classList.remove('slide-up-js');
-    };
-  });
+      if (scrollUser > services1Target) {
+        services1.classList.remove('slide-up-js');
+      };
+      if (scrollUser > services2Target) {
+        services2.classList.remove('slide-up-js');
+      };
+      if (scrollUser > services3Target) {
+        services3.classList.remove('slide-up-js');
+      };
+    });
+  };
 
+  // Portfolio section slideIn
   const portfolioRow1Target = 2150
   const portfolioRow2Target = 2200
 

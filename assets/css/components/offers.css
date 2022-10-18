@@ -32,7 +32,7 @@
   border-radius: 0.5rem;
   text-align: center;
   padding: 2rem;
-  box-shadow: 0px 2px 5px 0px var(--color-text)
+  box-shadow: 0px 2px 5px 0px var(--color-text);
 }
 
 .card-subtitle{
