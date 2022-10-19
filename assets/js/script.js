@@ -46,21 +46,9 @@ const portfolioGreyToColor = () => {
   });
 };
 
-// const scrollerServices = () => {
 
-//   const scrollTargetServices = 780;
-//   const services = document.querySelector('.services-grid');
-
-//   window.addEventListener("scroll", function () {
-//     const scrollUser = this.scrollY || window.pageYOffset;
-
-//     if (scrollUser > scrollTargetServices) {
-//       services.classList.remove('slide-up-js');
-//     };
-//   });
-// };
-
-const slideInJs = () => {
+// Slide JS sur la home
+const slideInJsHome = () => {
 
   // Services section slideIn
   const services1Target = 720;
@@ -111,8 +99,35 @@ const slideInJs = () => {
   });
 };
 
+const slideInJsAbout = () => {
+
+  const skill1Target = 520;
+  const skill2Target = 600;
+  const skill3Target = 680;
+
+  const skill1 = document.querySelector('.consultant');
+  const skill2 = document.querySelector('.designer');
+  const skill3 = document.querySelector('.dev');
+
+  if (window.location.pathname == '/about.html') {
+    window.addEventListener("scroll", function () {
+      const scrollUser = this.scrollY || window.pageYOffset;
+
+      if (scrollUser > skill1Target) {
+        skill1.classList.remove('slide-up-js');
+      };
+      if (scrollUser > skill2Target) {
+        skill2.classList.remove('slide-up-js');
+      };
+      if (scrollUser > skill3Target) {
+        skill3.classList.remove('slide-up-js');
+      };
+    });
+  };
+};
+
 
 navSlide();
 portfolioGreyToColor();
-// scrollerServices();
-slideInJs();
+slideInJsHome();
+slideInJsAbout();
