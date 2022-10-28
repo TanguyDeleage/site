@@ -1,60 +1,54 @@
-.methodology-section {
+.services-section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.methodology-grid {
+.benefits-grid {
   display: grid;
   grid-gap: 2rem;
   justify-items: center;
 }
 
-.methodology-step {
+.benefits-box {
   background-color: var(--color-text-white);
   border-radius: 0.5rem;
-  padding: 1rem;
+  text-align: center;
+  padding: 2rem;
   box-shadow: 0px 2px 5px 0px var(--color-text);
   transition: opacity 0.8s, transform 0.8s ease-out 0s;
 }
 
-.methodology-number {
-  font-size: 2.5rem;
+.benefits-icon {
+  height: 5rem;
+  width: 5rem;
 }
 
-.methodology-step p {
+.benefits-title {
+  color: var(--color-text-black);
+  font-weight: var(--font-semi-bold);
+}
+
+.benefits-content {
   color: var(--color-subtitles);
-  font-size: var(--font-small);
+  text-align: left;
 }
 
-.step-1 {
-  transition-delay: 0s;
+.button-center {
+  margin: 0 auto;
 }
-.step-2 {
-  transition-delay: 0.1s;
-}
-.step-3{
-  transition-delay: 0.2s;
-}
-.step-4{
-  transition-delay: 0.3s;
-}
-.step-5{
-  transition-delay: 0.4s;
-}
-.step-6{
-  transition-delay: 0.5s;
-}
-
 
 /* ========== Small Devices ============== */
 @media screen and (max-width: 930px) {
+  .problems-box {
+    flex-basis: 100%;
+  }
 
-  .methodology-grid {
+  .benefits-grid {
     grid-template-columns: 1fr;
   }
 
-  .methodology-step {
+  .benefits-box {
     width: 80%;
   }
 }
@@ -63,8 +57,17 @@
 
 /* ============= Big Devices ============ */
 @media screen and (min-width: 930px) {
-
-  .methodology-grid {
+  .problems-box {
+    flex-basis: 50%;
+  }
+  .benefits-grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  .benefits-box {
+    width: 100%;
+    /* min height à vérifier que ça ne casse pas tout */
+    min-height: 25rem;
+  }
+
 }

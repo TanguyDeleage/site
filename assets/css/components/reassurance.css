@@ -1,20 +1,17 @@
 .reassurance-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  background-color: var(--color-main);
 }
 
 .logo-list {
   display: grid;
   filter: grayscale(1);
-
+  gap: 6rem;
 }
 
 .brand-logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 8rem;
 }
 
 .brand-logo img{

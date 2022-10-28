@@ -51,9 +51,9 @@ form input, textarea, button {
 }
 
 form input, textarea {
-  background-color: var(--color-secondary);
   padding: 1rem;
   border-radius: 0.5rem;
+  box-shadow: var(--color-subtitles) 0px 1px 7px 1px;
 }
 
 form ::placeholder {

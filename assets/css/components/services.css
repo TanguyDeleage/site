@@ -1,58 +1,33 @@
-.services-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .services-grid {
-  /* Relier à test */
   display: grid;
   grid-gap: 2rem;
   justify-items: center;
-  /* transition: opacity 0.8s, transform 0.8s ease-out 0s; */
 }
 
 .services-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: var(--color-text-white);
   border-radius: 0.5rem;
   text-align: center;
   padding: 2rem;
-  box-shadow: 0px 2px 5px 0px var(--color-text);
+  box-shadow: 0px 2px 5px 0px var(--color-text)
+}
+
+.audit, .build {
   transition: opacity 0.8s, transform 0.8s ease-out 0s;
-}
-
-.services-icon {
-  height: 5rem;
-  width: 5rem;
-}
-
-.services-title {
-  color: var(--color-text-black);
-  font-weight: var(--font-semi-bold);
-}
-
-.services-content {
-  color: var(--color-subtitles);
-  list-style: disc;
-  text-align: left;
-}
-
-.button-center {
-  margin: 0 auto;
 }
 
 /* ========== Small Devices ============== */
 @media screen and (max-width: 930px) {
-  .problems-box {
-    flex-basis: 100%;
-  }
-
   .services-grid {
     grid-template-columns: 1fr;
   }
 
   .services-box {
     width: 80%;
+    min-height: 20rem;
   }
 }
 
@@ -60,20 +35,12 @@
 
 /* ============= Big Devices ============ */
 @media screen and (min-width: 930px) {
-  .problems-box {
-    flex-basis: 50%;
-  }
   .services-grid {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .services-box {
     width: 100%;
+    min-height: 25rem;
   }
-
-  .slide-up-js {
-    opacity: 0%;
-    transform: translateY(10rem);
-  }
-
 }

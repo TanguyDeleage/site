@@ -6,6 +6,7 @@
 @import url("components/header.css");
 @import url("components/hero.css");
 @import url("components/reassurance.css");
+@import url("components/benefits.css");
 @import url("components/services.css");
 @import url("components/offers.css");
 @import url("components/portfolio.css");
@@ -101,13 +102,6 @@ img {
   text-align: justify;
 }
 
-.divider {
-  width: 90vw;
-  height: 1px;
-  background-color: var(--color-subtitles);
-  margin: 0 auto;
-}
-
 .section-title {
   display: flex;
   justify-content: left;
@@ -187,5 +181,16 @@ img {
 
   .scroll-section-end {
     scroll-snap-align: end;
+  }
+
+
+  /* ============= JS Animations ========== */
+  .slide-up-js {
+    opacity: 0%;
+    transform: translateY(10rem);
+  }
+
+  .opacity-js {
+    opacity: 0%;
   }
 }
