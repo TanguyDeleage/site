@@ -53,7 +53,7 @@ form input, textarea, button {
 form input, textarea {
   padding: 1rem;
   border-radius: 0.5rem;
-  box-shadow: var(--color-subtitles) 0px 1px 7px 1px;
+  box-shadow: 0px 2px 5px 0px var(--color-text);
 }
 
 form ::placeholder {
