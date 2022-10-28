@@ -1,4 +1,3 @@
-
 // Change le display de la navbar (none/flex) quand on clique sur le menu burger
 const navSlide = () => {
   const burger = document.querySelector('.burger');
@@ -30,7 +29,7 @@ const portfolioGreyToColor = () => {
   const picture = document.querySelectorAll('.card-picture');
 
   // On hover change project color from grey to color
-  card.forEach(function(element, index) {
+  card.forEach(function (element, index) {
     element.addEventListener('mouseenter', () => {
       var item = picture[index];
       item.classList.toggle('grey');
@@ -117,27 +116,27 @@ const slideInJsHome = () => {
 
 
     // Portfolio section slideIn
-    const portfolioRow1Target = 2600;
-    const portfolioRow2Target = 2650;
+    // const portfolioRow1Target = 2600;
+    // const portfolioRow2Target = 2650;
 
-    const portfolioCard1 = document.querySelector('.portfolio-card-1');
-    const portfolioCard2 = document.querySelector('.portfolio-card-2');
-    const portfolioCard3 = document.querySelector('.portfolio-card-3');
-    const portfolioCard4 = document.querySelector('.portfolio-card-4');
+    // const portfolioCard1 = document.querySelector('.portfolio-card-1');
+    // const portfolioCard2 = document.querySelector('.portfolio-card-2');
+    // const portfolioCard3 = document.querySelector('.portfolio-card-3');
+    // const portfolioCard4 = document.querySelector('.portfolio-card-4');
 
-    window.addEventListener("scroll", function () {
-      const scrollUser = this.scrollY || window.pageYOffset;
+    // window.addEventListener("scroll", function () {
+    //   const scrollUser = this.scrollY || window.pageYOffset;
 
-     if (scrollUser > portfolioRow1Target) {
-       portfolioCard1.classList.remove('slide-right-js');
-       portfolioCard2.classList.remove('slide-right-js');
-     };
+    //   if (scrollUser > portfolioRow1Target) {
+    //     portfolioCard1.classList.remove('slide-right-js');
+    //     portfolioCard2.classList.remove('slide-right-js');
+    //   };
 
-     if (scrollUser > portfolioRow2Target) {
-       portfolioCard3.classList.remove('slide-left-js');
-       portfolioCard4.classList.remove('slide-left-js');
-     };
-    });
+    //   if (scrollUser > portfolioRow2Target) {
+    //     portfolioCard3.classList.remove('slide-left-js');
+    //     portfolioCard4.classList.remove('slide-left-js');
+    //   };
+    // });
 
     // Methodology section slideIn
 
