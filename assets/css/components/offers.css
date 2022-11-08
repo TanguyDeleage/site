@@ -47,6 +47,7 @@
 
 .persona-verbatim img {
   height: 1.25rem;
+  width: auto;
 }
 
 .persona-verbatim p {
