@@ -15,5 +15,5 @@
 - In my projects I code with HTML and CSS and I use some JS for some dynamism.
 
 ### Contact me
-- You can reach me by mail : tanguy.deleage1@gmail.com
+- You can reach me by mail : contact@tanguydeleage.com
 - You can connect with me on [linkedin](https://www.linkedin.com/in/tanguy-deleage/)
