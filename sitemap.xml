@@ -1,45 +1,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>https://www.tanguydeleage.com/</loc>
-  <lastmod>2022-10-08T11:19:49+00:00</lastmod>
-  <priority>1.00</priority>
+<loc>https://www.tanguydeleage.com/</loc>
+<lastmod>2022-11-14T08:29:07+00:00</lastmod>
+<priority>1.00</priority>
 </url>
 
 <url>
-  <loc>https://www.tanguydeleage.com/about.html</loc>
-  <lastmod>2022-10-08T11:19:49+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.tanguydeleage.com/about</loc>
+<lastmod>2022-11-14T08:29:07+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 
 <url>
-  <loc>https://www.tanguydeleage.com/contact.html</loc>
-  <lastmod>2022-10-08T11:19:49+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.tanguydeleage.com/contact</loc>
+<lastmod>2022-11-14T08:29:07+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 
 <url>
-  <loc>https://www.tanguydeleage.com/projects/matematch.html</loc>
-  <lastmod>2022-10-08T11:19:49+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.tanguydeleage.com/projects/matematch</loc>
+<lastmod>2022-11-14T08:29:07+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 
 <url>
-  <loc>http://www.tanguydeleage.com/projects/400coop.html</loc>
-  <lastmod>2022-10-08T11:19:49+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.tanguydeleage.com/projects/400coop</loc>
+<lastmod>2022-11-14T08:29:07+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 
 <url>
-  <loc>https://www.tanguydeleage.com/projects/rallye.html</loc>
-  <lastmod>2022-10-08T11:19:49+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.tanguydeleage.com/projects/rallye</loc>
+<lastmod>2022-11-14T08:29:07+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 
 <url>
-  <loc>https://www.tanguydeleage.com/projects/daily-ui.html</loc>
-  <lastmod>2022-10-08T11:19:49+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.tanguydeleage.com/projects/daily-ui</loc>
+<lastmod>2022-11-14T08:29:07+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+
+<url>
+<loc>https://www.tanguydeleage.com/index</loc>
+<lastmod>2022-11-14T08:29:07+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 
 </urlset>
