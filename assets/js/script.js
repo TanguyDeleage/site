@@ -180,7 +180,7 @@ const slideInJsAbout = () => {
   const skill2 = document.querySelector('.designer');
   const skill3 = document.querySelector('.dev');
 
-  if (window.location.pathname == '/about') {
+  if (window.location.pathname == '/about.html') {
     window.addEventListener("scroll", function () {
       const scrollUser = this.scrollY || window.pageYOffset;
 
