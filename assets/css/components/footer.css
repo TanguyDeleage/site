@@ -18,6 +18,7 @@
   gap: 1rem;
   font-weight: var(--font-bold);
   height: max-content;
+  color: var(--color-text-black);
 }
 
 .logotitle h2{
