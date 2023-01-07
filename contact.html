@@ -97,12 +97,20 @@
         </div>
 
         <div class="contact-form">
-          <form class="contact-form" action="https://formkeep.com/f/f7de19a45a9d" accept-charset="UTF-8" enctype="multipart/form-data" method="POST">
+          <form class="contact-form" action="https://formsubmit.co/tanguy.deleage.freelance@gmail.com" method="POST" />
             <input class="form-name mb-1" type="text" name="Name" placeholder="Nom & Prénom" maxlength="50" required>
-            <input class="form-mail mb-1" type="email" name="email" placeholder="Email" maxlength="50" required>
-            <textarea class="form-request mb-2" type="text" name="request" placeholder="Comment puis-je vous aider ?" name="message" maxlength="5000" required></textarea>
-            <button type="submit" id="submit-form-btn" class="main-btn btn-center mb-2"><p>Envoyer</p></button>
+            <input class="form-mail mb-1" type="email" name="Email" placeholder="Email" maxlength="50" required>
+            <textarea class="form-request mb-2" type="text" name="Request" placeholder="Comment puis-je vous aider ?" name="message"
+              maxlength="5000" required></textarea>
+            <!-- Redirect to home after submit -->
+            <input type="hidden" name="_next" value="https://tanguydeleage.com">
+            <!-- Modify mail object I receive -->
+            <input type="hidden" name="_subject" value="Contact tanguydeleage.com">
+            <button type="submit" id="submit-form-btn" class="main-btn btn-center mb-2">
+              <p>Envoyer</p>
+            </button>
           </form>
+
         </div>
       </div>
 
