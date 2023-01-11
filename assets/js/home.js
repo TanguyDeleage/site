@@ -50,6 +50,7 @@ const portfolioGreyToColor = () => {
 const slideInJsHome = () => {
 
   // Benefits section slideIn
+
   const benefits1Target = 250;
   const benefits2Target = 400;
   const benefits3Target = 500;
@@ -73,6 +74,22 @@ const slideInJsHome = () => {
       };
     });
 
+  // const benefitsTarget = 650;
+
+  // const benefits1 = document.querySelector('.visibility');
+  // const benefits2 = document.querySelector('.credibility');
+  // const benefits3 = document.querySelector('.efficacity');
+
+  // if (window.location.pathname == '/') {
+  //   window.addEventListener("scroll", function () {
+  //     const scrollUser = this.scrollY || window.pageYOffset;
+
+  //     if (scrollUser > benefitsTarget) {
+  //       benefits1.classList.remove('slide-up-js');
+  //       benefits2.classList.remove('slide-up-js');
+  //       benefits3.classList.remove('slide-up-js');
+  //     };
+  //   });
 
     // Offers section slideIn
     const offersTarget = 1000;
@@ -170,35 +187,6 @@ const slideInJsHome = () => {
 };
 
 
-const slideInJsAbout = () => {
-
-  const skill1Target = 330;
-  const skill2Target = 430;
-  const skill3Target = 530;
-
-  const skill1 = document.querySelector('.consultant');
-  const skill2 = document.querySelector('.designer');
-  const skill3 = document.querySelector('.dev');
-
-  if (window.location.pathname == '/about.html') {
-    window.addEventListener("scroll", function () {
-      const scrollUser = this.scrollY || window.pageYOffset;
-
-      if (scrollUser > skill1Target) {
-        skill1.classList.remove('slide-up-js');
-      };
-      if (scrollUser > skill2Target) {
-        skill2.classList.remove('slide-up-js');
-      };
-      if (scrollUser > skill3Target) {
-        skill3.classList.remove('slide-up-js');
-      };
-    });
-  };
-};
-
-
 navSlide();
 portfolioGreyToColor();
 slideInJsHome();
-slideInJsAbout();
