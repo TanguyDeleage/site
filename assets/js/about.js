@@ -23,26 +23,18 @@ const navSlide = () => {
 
 
 const slideInJsAbout = () => {
-
-  const skill1Target = 330;
-  const skill2Target = 430;
-  const skill3Target = 530;
-
-  const skill1 = document.querySelector('.consultant');
-  const skill2 = document.querySelector('.designer');
-  const skill3 = document.querySelector('.dev');
+  const benefitsTarget = 500;
+  const benefits = document.querySelectorAll('.benefits-box');
 
   window.addEventListener("scroll", function () {
     const scrollUser = this.scrollY || window.pageYOffset;
 
-    if (scrollUser > skill1Target) {
-      skill1.classList.remove('slide-up-js');
-    };
-    if (scrollUser > skill2Target) {
-      skill2.classList.remove('slide-up-js');
-    };
-    if (scrollUser > skill3Target) {
-      skill3.classList.remove('slide-up-js');
+    if (scrollUser > benefitsTarget) {
+      benefits.forEach((benefit, index) => {
+        setTimeout(function () {
+          benefit.classList.remove('slide-up-js');
+        }, index * 200);
+      });
     };
   });
 };
