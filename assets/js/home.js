@@ -66,12 +66,8 @@ const slideInJsHome = () => {
 
   // Offers section slideIn
   const offersTarget = 1000;
-
-
   const offer1 = document.querySelector('.self');
   const offer2 = document.querySelector('.agency');
-
-
 
   window.addEventListener("scroll", function () {
     const scrollUser = this.scrollY || window.pageYOffset;
@@ -86,24 +82,20 @@ const slideInJsHome = () => {
 
 
   // Services section slideIn
-  const service1Target = 1750;
-  const service2Target = 1900;
-
-  const service1 = document.querySelector('.audit');
-  const service2 = document.querySelector('.build');
-
+  const servicesTarget = 2100;
+  const services = document.querySelectorAll('.services-box');
 
   window.addEventListener("scroll", function () {
     const scrollUser = this.scrollY || window.pageYOffset;
 
-    if (scrollUser > service1Target) {
-      service1.classList.remove('slide-up-js');
-    };
-    if (scrollUser > service2Target) {
-      service2.classList.remove('slide-up-js');
+    if (scrollUser > servicesTarget) {
+      services.forEach((service, index) => {
+        setTimeout(function () {
+          service.classList.remove('slide-up-js');
+        }, index*200);
+      });
     };
   });
-
 
     // Portfolio section slideIn
     // const portfolioRow1Target = 2600;
@@ -128,32 +120,20 @@ const slideInJsHome = () => {
     //   };
     // });
 
-    // Methodology section slideIn
 
+  // Methodology section slideIn
   const methodoTarget = 3600;
-  // const steps = document.querySelectorAll('.methodology-step')
-  const step1 = document.querySelector('.step-1');
-  const step2 = document.querySelector('.step-2');
-  const step3 = document.querySelector('.step-3');
-  const step4 = document.querySelector('.step-4');
-  const step5 = document.querySelector('.step-5');
-  const step6 = document.querySelector('.step-6');
-
+  const methodologySteps = document.querySelectorAll('.methodology-step');
 
   window.addEventListener("scroll", function () {
     const scrollUser = this.scrollY || window.pageYOffset;
 
     if (scrollUser > methodoTarget) {
-      // steps.forEach(step => {
-      //   step.classList.remove('opacity-js');
-      // });
-
-      step1.classList.remove('opacity-js');
-      step2.classList.remove('opacity-js');
-      step3.classList.remove('opacity-js');
-      step4.classList.remove('opacity-js');
-      step5.classList.remove('opacity-js');
-      step6.classList.remove('opacity-js');
+      methodologySteps.forEach((methodologyStep, index) => {
+        setTimeout(function () {
+          methodologyStep.classList.remove('opacity-js');
+        }, index * 100);
+      });
     };
   });
 };

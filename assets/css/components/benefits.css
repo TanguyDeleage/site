@@ -16,7 +16,7 @@
   text-align: center;
   padding: 2rem;
   box-shadow: 0px 2px 5px 0px var(--color-text);
-  transition: opacity 0.8s, transform 0.8s ease-out 0s;
+  transition: opacity 0.6s, transform 0.6s ease-out 0s;
 }
 
 .benefits-icon {

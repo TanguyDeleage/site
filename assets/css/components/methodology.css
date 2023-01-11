@@ -27,26 +27,6 @@
   font-size: var(--font-small);
 }
 
-.step-1 {
-  transition-delay: 0s;
-}
-.step-2 {
-  transition-delay: 0.1s;
-}
-.step-3{
-  transition-delay: 0.2s;
-}
-.step-4{
-  transition-delay: 0.3s;
-}
-.step-5{
-  transition-delay: 0.4s;
-}
-.step-6{
-  transition-delay: 0.5s;
-}
-
-
 /* ========== Small Devices ============== */
 @media screen and (max-width: 930px) {
 
