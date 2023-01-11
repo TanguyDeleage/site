@@ -38,20 +38,6 @@
   margin: 0 auto;
 }
 
-/* .visibility {
-transition-delay: 0s;
-transition-duration: 0.8s;
-}
-.credibility {
-transition-delay: 0.2s;
-transition-duration: 0.8s;
-}
-.efficacity {
-  transition-delay: 0.4s;
-  transition-duration: 0.8s;
-} */
-
-
 /* ========== Small Devices ============== */
 @media screen and (max-width: 930px) {
   .problems-box {

@@ -32,21 +32,19 @@ const slideInJsAbout = () => {
   const skill2 = document.querySelector('.designer');
   const skill3 = document.querySelector('.dev');
 
-  if (window.location.pathname == '/about.html') {
-    window.addEventListener("scroll", function () {
-      const scrollUser = this.scrollY || window.pageYOffset;
+  window.addEventListener("scroll", function () {
+    const scrollUser = this.scrollY || window.pageYOffset;
 
-      if (scrollUser > skill1Target) {
-        skill1.classList.remove('slide-up-js');
-      };
-      if (scrollUser > skill2Target) {
-        skill2.classList.remove('slide-up-js');
-      };
-      if (scrollUser > skill3Target) {
-        skill3.classList.remove('slide-up-js');
-      };
-    });
-  };
+    if (scrollUser > skill1Target) {
+      skill1.classList.remove('slide-up-js');
+    };
+    if (scrollUser > skill2Target) {
+      skill2.classList.remove('slide-up-js');
+    };
+    if (scrollUser > skill3Target) {
+      skill3.classList.remove('slide-up-js');
+    };
+  });
 };
 
 

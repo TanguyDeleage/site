@@ -22,7 +22,6 @@ const navSlide = () => {
 }
 
 
-
 const portfolioGreyToColor = () => {
 
   const card = document.querySelectorAll('.above-card');
@@ -46,90 +45,64 @@ const portfolioGreyToColor = () => {
 };
 
 
-// Slide JS sur la home
 const slideInJsHome = () => {
 
   // Benefits section slideIn
+  const benefitsTarget = 650;
+  const benefits = document.querySelectorAll('.benefits-box');
 
-  const benefits1Target = 250;
-  const benefits2Target = 400;
-  const benefits3Target = 500;
+  window.addEventListener("scroll", function () {
+    const scrollUser = this.scrollY || window.pageYOffset;
 
-  const benefits1 = document.querySelector('.visibility');
-  const benefits2 = document.querySelector('.credibility');
-  const benefits3 = document.querySelector('.efficacity');
-
-  if (window.location.pathname == '/') {
-    window.addEventListener("scroll", function () {
-      const scrollUser = this.scrollY || window.pageYOffset;
-
-      if (scrollUser > benefits1Target) {
-        benefits1.classList.remove('slide-up-js');
-      };
-      if (scrollUser > benefits2Target) {
-        benefits2.classList.remove('slide-up-js');
-      };
-      if (scrollUser > benefits3Target) {
-        benefits3.classList.remove('slide-up-js');
-      };
-    });
-
-  // const benefitsTarget = 650;
-
-  // const benefits1 = document.querySelector('.visibility');
-  // const benefits2 = document.querySelector('.credibility');
-  // const benefits3 = document.querySelector('.efficacity');
-
-  // if (window.location.pathname == '/') {
-  //   window.addEventListener("scroll", function () {
-  //     const scrollUser = this.scrollY || window.pageYOffset;
-
-  //     if (scrollUser > benefitsTarget) {
-  //       benefits1.classList.remove('slide-up-js');
-  //       benefits2.classList.remove('slide-up-js');
-  //       benefits3.classList.remove('slide-up-js');
-  //     };
-  //   });
-
-    // Offers section slideIn
-    const offersTarget = 1000;
+    if (scrollUser > benefitsTarget) {
+      benefits.forEach((benefit, index) => {
+        setTimeout(function () {
+          benefit.classList.remove('slide-up-js');
+        }, index * 100);
+      });
+    };
+  });
 
 
-    const offer1 = document.querySelector('.self');
-    const offer2 = document.querySelector('.agency');
+  // Offers section slideIn
+  const offersTarget = 1000;
+
+
+  const offer1 = document.querySelector('.self');
+  const offer2 = document.querySelector('.agency');
 
 
 
-    window.addEventListener("scroll", function () {
-      const scrollUser = this.scrollY || window.pageYOffset;
+  window.addEventListener("scroll", function () {
+    const scrollUser = this.scrollY || window.pageYOffset;
 
-      if (scrollUser > offersTarget) {
-        offer1.classList.remove('slide-left-js');
-      };
-      if (scrollUser > offersTarget) {
-        offer2.classList.remove('slide-right-js');
-      };
-    });
-
-
-    // Services section slideIn
-    const service1Target = 1750;
-    const service2Target = 1900;
-
-    const service1 = document.querySelector('.audit');
-    const service2 = document.querySelector('.build');
+    if (scrollUser > offersTarget) {
+      offer1.classList.remove('slide-left-js');
+    };
+    if (scrollUser > offersTarget) {
+      offer2.classList.remove('slide-right-js');
+    };
+  });
 
 
-    window.addEventListener("scroll", function () {
-      const scrollUser = this.scrollY || window.pageYOffset;
+  // Services section slideIn
+  const service1Target = 1750;
+  const service2Target = 1900;
 
-      if (scrollUser > service1Target) {
-        service1.classList.remove('slide-up-js');
-      };
-      if (scrollUser > service2Target) {
-        service2.classList.remove('slide-up-js');
-      };
-    });
+  const service1 = document.querySelector('.audit');
+  const service2 = document.querySelector('.build');
+
+
+  window.addEventListener("scroll", function () {
+    const scrollUser = this.scrollY || window.pageYOffset;
+
+    if (scrollUser > service1Target) {
+      service1.classList.remove('slide-up-js');
+    };
+    if (scrollUser > service2Target) {
+      service2.classList.remove('slide-up-js');
+    };
+  });
 
 
     // Portfolio section slideIn
@@ -157,33 +130,32 @@ const slideInJsHome = () => {
 
     // Methodology section slideIn
 
-    const methodoTarget = 3600;
-    // const steps = document.querySelectorAll('.methodology-step')
-    const step1 = document.querySelector('.step-1');
-    const step2 = document.querySelector('.step-2');
-    const step3 = document.querySelector('.step-3');
-    const step4 = document.querySelector('.step-4');
-    const step5 = document.querySelector('.step-5');
-    const step6 = document.querySelector('.step-6');
+  const methodoTarget = 3600;
+  // const steps = document.querySelectorAll('.methodology-step')
+  const step1 = document.querySelector('.step-1');
+  const step2 = document.querySelector('.step-2');
+  const step3 = document.querySelector('.step-3');
+  const step4 = document.querySelector('.step-4');
+  const step5 = document.querySelector('.step-5');
+  const step6 = document.querySelector('.step-6');
 
 
-    window.addEventListener("scroll", function () {
-      const scrollUser = this.scrollY || window.pageYOffset;
+  window.addEventListener("scroll", function () {
+    const scrollUser = this.scrollY || window.pageYOffset;
 
-      if (scrollUser > methodoTarget) {
-        // steps.forEach(step => {
-        //   step.classList.remove('opacity-js');
-        // });
+    if (scrollUser > methodoTarget) {
+      // steps.forEach(step => {
+      //   step.classList.remove('opacity-js');
+      // });
 
-        step1.classList.remove('opacity-js');
-        step2.classList.remove('opacity-js');
-        step3.classList.remove('opacity-js');
-        step4.classList.remove('opacity-js');
-        step5.classList.remove('opacity-js');
-        step6.classList.remove('opacity-js');
-      };
-    });
-  };
+      step1.classList.remove('opacity-js');
+      step2.classList.remove('opacity-js');
+      step3.classList.remove('opacity-js');
+      step4.classList.remove('opacity-js');
+      step5.classList.remove('opacity-js');
+      step6.classList.remove('opacity-js');
+    };
+  });
 };
 
 
